@@ -1,5 +1,8 @@
 <?php
-
+function cost_setup (){
+  add_theme_support( 'post-thumbnails');
+}
+add_action( 'after_setup_theme', 'cost_setup');
 function cost_styles(){
   //registrar estilos
 wp_enqueue_style( 'normalize', get_template_directory_uri().'/css/normalize.css', array(),'5.0.0');
@@ -19,7 +22,8 @@ add_action('wp_enqueue_scripts', 'cost_styles');
 //cargando menus
 register_nav_menus( array(
   'menu_principal' => __('Menu Principal','cost'),
-  'menu_social' => __('Menu Social','cost')
+  'menu_social' => __('Menu Social','cost'),
+  'menu_bullets' => __('Menu Bullets', 'cost')
 ));
 //widget
 
@@ -28,3 +32,5 @@ function cost_widgets (){
 
   ) );
 }
+
+add_theme_support( 'post-thumbnails' );

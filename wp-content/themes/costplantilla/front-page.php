@@ -1,4 +1,27 @@
 <?php get_header();?>
+<section>
+  <h2>Bullets</h2>
+  <p>Selecciona uno de los menus. </p>
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="row">
+        <?php
+          wp_nav_menu(array(
+            'theme_location' => 'menu_bullets',
+          ) );
+         ?>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="width:100%; margin:30px; padding:30px;">
+  <h2>Eventos</h2>
+
+
+        <?php get_template_part( 'index' ); ?>
+      
+</section>
 
 <section class="principal contenedor">
     <main class="texto-cerrado contenido-paginas">
@@ -61,6 +84,26 @@
 
 </section>
 
+<section>
+  <div>
+    <h2 style="text-align: center;">GRUPO MULTISECTORIAL (GMS)</h2>
+  </div>
+  <div>
+    <p style="text-align: center;">Organismo rector de la iniciativa CoST El Salvador, integrado por academia, Sociedad Civil, Empresa privada y Gobierno.</p>
+  </div>
+    <?php $url = get_page_by_title( "Galeria Logos Grupo Multisectorial"); ?>
+    <<?php echo get_post_gallery( $url->ID); ?>
+</section>
+<section>
+  <div>
+    <h2 style="text-align: center;">Alianzas Estrategicas</h2>
+  </div>
+  <div>
+    <p style="text-align: center;">Alianzas para el fortalecimiento de la tranparencia en la infraestructura publica de El Salvador</p>
+  </div>
+    <?php $url = get_page_by_title( "Alianzas Estrategicas"); ?>
+    <<?php echo get_post_gallery( $url->ID); ?>
+</section>
 <section class="contacto">
   <div class="container">
     <div class="columnas2-4">

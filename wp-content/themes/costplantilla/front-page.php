@@ -1,4 +1,25 @@
 <?php get_header();?>
+
+<section>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+   </ol>
+   <div class="carousel-inner">
+     <div class="carousel-item active">
+       <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/SLIDE/slide1@2x.png' ;?>" alt="First slide">
+     </div>
+     <div class="carousel-item">
+       <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/SLIDE/slide02@2x.png' ;?>" alt="Second slide">
+     </div>
+     <div class="carousel-item">
+       <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/SLIDE/slide3@2x.png' ;?>" alt="Third slide">
+     </div>
+   </div>
+  </div>
+</section>
 <section>
   <h2>Bullets</h2>
   <p>Selecciona uno de los menus. </p>
@@ -17,12 +38,10 @@
 
 <section style="width:100%; margin:30px; padding:30px;">
   <h2>Eventos</h2>
-
-
-        <?php get_template_part( 'index' ); ?>
-      
+  <div class="">
+    <?php get_template_part( 'page', 'blog' ); ?>
+  </div>
 </section>
-
 <section class="principal contenedor">
     <main class="texto-cerrado contenido-paginas">
         <div class="historias-exito">
@@ -55,7 +74,6 @@
                 ?>
                 <div class="mision-title">
                     <?php the_title(); ?>
-
                 </div>
                 <div class="mision-posts">
                     <?php the_content(); ?>
@@ -92,17 +110,23 @@
     <p style="text-align: center;">Organismo rector de la iniciativa CoST El Salvador, integrado por academia, Sociedad Civil, Empresa privada y Gobierno.</p>
   </div>
     <?php $url = get_page_by_title( "Galeria Logos Grupo Multisectorial"); ?>
-    <<?php echo get_post_gallery( $url->ID); ?>
+    <?php echo get_post_gallery( $url->ID); ?>
+    <div>
+      <h2 style="text-align: center;">Alianzas Estrategicas</h2>
+    </div>
+    <div>
+      <p style="text-align: center;">Alianzas para el fortalecimiento de la tranparencia en la infraestructura publica de El Salvador</p>
+    </div>
+      <?php $url = get_page_by_title( "alianzas"); ?>
+      <?php echo get_post_gallery( $url->ID); ?>
+      <div>
+        <h2 style="text-align: center;">COMPROMETIDOS CON</h2>
+      </div>
+        <?php $url = get_page_by_title( "comprometidos"); ?>
+        <?php echo get_post_gallery( $url->ID); ?>
 </section>
 <section>
-  <div>
-    <h2 style="text-align: center;">Alianzas Estrategicas</h2>
-  </div>
-  <div>
-    <p style="text-align: center;">Alianzas para el fortalecimiento de la tranparencia en la infraestructura publica de El Salvador</p>
-  </div>
-    <?php $url = get_page_by_title( "Alianzas Estrategicas"); ?>
-    <<?php echo get_post_gallery( $url->ID); ?>
+
 </section>
 <section class="contacto">
   <div class="container">

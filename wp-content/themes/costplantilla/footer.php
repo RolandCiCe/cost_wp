@@ -1,8 +1,8 @@
 
 <footer>
-<div class="row">
+<div class="">
   <div class="col-sm-12">
-    <div class="row">
+    <div class="">
       <?php
         wp_nav_menu(array(
           'theme_location' => 'menu_social',
@@ -30,7 +30,6 @@
 
 <?php wp_footer(); ?>
 
-  </body>
-
-
+  </div>
+</body>
 </html>

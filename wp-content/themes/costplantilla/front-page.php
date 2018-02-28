@@ -1,31 +1,41 @@
 <?php get_header();?>
 
-<section>
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<section class="">
+  <div id="costCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-   </ol>
-   <div class="carousel-inner">
-     <div class="carousel-item active">
-       <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/SLIDE/slide1@2x.png' ;?>" alt="First slide">
-     </div>
-     <div class="carousel-item">
-       <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/SLIDE/slide02@2x.png' ;?>" alt="Second slide">
-     </div>
-     <div class="carousel-item">
-       <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/SLIDE/slide3@2x.png' ;?>" alt="Third slide">
-     </div>
-   </div>
+      <li data-target="#costCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#costCarousel" data-slide-to="1"></li>
+      <li data-target="#costCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-caption d-none d-md-block">
+      <p>pioneros de la transparencia</p>
+      <h1 class="gotham-bold">en obras de infraestructura</h1>
+      <h3>en el salvador</h3>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/SLIDE/slide1@2x.png' ;?>" alt="img01">
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/SLIDE/slide02@2x.png' ;?>" alt="img02">
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/SLIDE/slide3@2x.png' ;?>" alt="img03">
+      </div>
+    </div>
   </div>
 </section>
+
 <section>
   <h2>Bullets</h2>
   <p>Selecciona uno de los menus. </p>
-  <div class="row">
+  <div class="">
     <div class="col-sm-12">
-      <div class="row">
+      <div class="">
         <?php
           wp_nav_menu(array(
             'theme_location' => 'menu_bullets',
@@ -36,7 +46,9 @@
   </div>
 </section>
 
-<section style="width:100%; margin:30px; padding:30px;">
+<div class="thick-ruler"></div>
+
+<section>
   <h2>Eventos</h2>
   <div class="">
 
@@ -80,69 +92,68 @@
 
   </div>
 </section>
-<section class="principal contenedor">
-    <main class="texto-cerrado contenido-paginas">
-        <div class="historias-exito">
-            <h2>Historias de Exito:</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac condimentum sem, eget laoreet sem. Maecenas euismod efficitur quam, vel viverra felis mollis in. </p>
-            <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/generalidades/avatar.png' ;?>" alt="" width="58" height="58" />
-            <p>Gloria Lopez</p>
-            <p>SAnta Tecla</p>
 
-        </div>
-        <div class="Mision">
-            <h2>Mision</h2>
-            <div class="">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac condimentum sem, eget laoreet sem. Maecenas euismod efficitur quam, vel viverra felis mollis in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas sit amet gravida enim, ornare mattis enim. Praesent cursus purus ex, at ultrices libero aliquet vitae. Phasellus nec mi id mi accumsan pellentesque. Sed sodales libero pharetra leo commodo auctor. Cras eu consequat purus. Nullam convallis augue id lobortis feugiat. Suspendisse vehicula blandit faucibus. Vestibulum eget augue lacinia, fringilla lorem ut, faucibus odio.</p>
-            </div>
-        </div>
-        <div class="Vision">
-            <h2>Vision</h2>
-            <div class="">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac condimentum sem, eget laoreet sem. Maecenas euismod efficitur quam, vel viverra felis mollis in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas sit amet gravida enim, ornare mattis enim. Praesent cursus purus ex, at ultrices libero aliquet vitae. Phasellus nec mi id mi accumsan pellentesque. Sed sodales libero pharetra leo commodo auctor. Cras eu consequat purus. Nullam convallis augue id lobortis feugiat. Suspendisse vehicula blandit faucibus. Vestibulum eget augue lacinia, fringilla lorem ut, faucibus odio.</p>
-            </div>
-        </div>
-    </main>
+<section class="historias-exito">
+  <div class="text-center">
+      <h2>Historias de Éxito:</h2><br />
 
+      <p class="italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac condimentum sem, eget laoreet sem. Maecenas euismod efficitur quam, vel viverra felis mollis in. </p><br />
+
+      <div><img class="thumbnail img-circle wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/generalidades/avatar.png' ;?>" alt="" width="96" height="96" /></div><br />
+
+      <div class="small-ruler"><div></div></div>
+
+      <span class="cost-sub">Gloria Lopez</span>
+      <span class="cost-sub text-primary">Santa Tecla</span>
+
+  </div>
+</section>
+
+<section class="mi-vi row bg-primary">
+  <div class="mivi-item col-xs-1 col-sm-1 col-md-6">
+      <h2>Misión</h2>
+      
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac condimentum sem, eget laoreet sem. Maecenas euismod efficitur quam, vel viverra felis mollis in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas sit amet gravida enim, ornare mattis enim. Praesent cursus purus ex, at ultrices libero aliquet vitae. Phasellus nec mi id mi accumsan pellentesque. Sed sodales libero pharetra leo commodo auctor. Cras eu consequat purus. Nullam convallis augue id lobortis feugiat. Suspendisse vehicula blandit faucibus. Vestibulum eget augue lacinia, fringilla lorem ut, faucibus odio.</p>
+  </div>
+
+  <div class="mivi-item col-xs-1 col-sm-1 col-md-6">
+      <h2>Visión</h2>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac condimentum sem, eget laoreet sem. Maecenas euismod efficitur quam, vel viverra felis mollis in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas sit amet gravida enim, ornare mattis enim. Praesent cursus purus ex, at ultrices libero aliquet vitae. Phasellus nec mi id mi accumsan pellentesque. Sed sodales libero pharetra leo commodo auctor. Cras eu consequat purus. Nullam convallis augue id lobortis feugiat. Suspendisse vehicula blandit faucibus. Vestibulum eget augue lacinia, fringilla lorem ut, faucibus odio.</p>
+  </div>
+</section>
+
+<section class="gms">
+  <h2 style="text-align: center;">GRUPO MULTISECTORIAL (GMS)</h2>
+
+  <div class="small-ruler"><div></div></div>
+
+  <p class="text-center text-dark">Organismo rector de la iniciativa CoST El Salvador, integrado por academia, Sociedad Civil, Empresa privada y Gobierno.</p><br /><br />
+
+  <div class="gms-row">
+    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 47@2x.png' ;?>" />
+    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 48@2x.png' ;?>" />
+    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 49@2x.png' ;?>" />
+    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 50@2x.png' ;?>" />
+  </div>
+  <br />
+  <div class="gms-row">
+    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 51@2x.png' ;?>" />
+    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 52@2x.png' ;?>" />
+    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 53@2x.png' ;?>" />
+    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/sacdel@2x.png' ;?>" />
+  </div>
 </section>
 
 <section>
-  <div class="GMS">
-
-
-    <div>
-      <h2 style="text-align: center;">GRUPO MULTISECTORIAL (GMS)</h2>
-    </div>
-    <div>
-      <p style="text-align: center;">Organismo rector de la iniciativa CoST El Salvador, integrado por academia, Sociedad Civil, Empresa privada y Gobierno.</p>
-    </div>
       <div class="">
-        <div class="">
-          <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 47@2x.png' ;?>" alt="" width="58" height="58" />
-        </div>
-        <div class="">
-          <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 48@2x.png' ;?>" alt="" width="58" height="58" />
-        </div>
-        <div class="">
-          <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 49@2x.png' ;?>" alt="" width="58" height="58" />
-        </div>
-        <div class="">
-          <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 50@2x.png' ;?>" alt="" width="58" height="58" />
-        </div>
-        <div class="">
-          <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 51@2x.png' ;?>" alt="" width="58" height="58" />
-        </div>
-        <div class="">
-          <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 52@2x.png' ;?>" alt="" width="58" height="58" />
-        </div>
-        <div class="">
-          <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 53@2x.png' ;?>" alt="" width="58" height="58" />
-        </div>
-        <div class="">
-          <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/sacdel@2x.png' ;?>" alt="" width="58" height="58" />
-        </div>
+        
+        
       </div>
     </div>
+
+    <div class="thick-ruler"></div>
+
     <div class="alianzas">
 
     <div>

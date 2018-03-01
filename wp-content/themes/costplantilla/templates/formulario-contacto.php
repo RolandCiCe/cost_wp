@@ -1,17 +1,17 @@
 <form class="formulario-contacto" method="post">
-  <h2>CONTACTANOS</h2>
+  <h2>CONTÁCTANOS</h2>
   <div class="campo">
-    <input type="text" name="nombre" placeholder="Nombre" required>
+    <input type="text" name="nombre" placeholder="Nombre" class="form-control" required>
   </div>
   <div class="campo">
-    <input type="email" name="correo" placeholder="Correo" required>
+    <input type="email" name="correo" placeholder="Correo" class="form-control" required>
   </div>
   <div class="campo">
-    <input type="text" name="asunto" placeholder="Asunto" required>
+    <input type="text" name="asunto" placeholder="Asunto" class="form-control" class="form-control" required>
   </div>
   <div class="campo">
-    <textarea  name="mensaje" placeholder="Mensaje" required> </textarea>
+    <textarea rows="6" name="mensaje" placeholder="Mensaje" class="form-control" required></textarea>
   </div>
-  <input type="submit" name="enviar" class="button">
+  <input type="submit" name="enviar" class="btn btn-primary">
   <input type="hidden" name="oculto" value="1">
 </form>

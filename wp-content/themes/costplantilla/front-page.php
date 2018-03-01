@@ -30,20 +30,21 @@
   </div>
 </section>
 
-<section>
-  <h2>Bullets</h2>
-  <p>Selecciona uno de los menus. </p>
-  <div class="">
-    <div class="col-sm-12">
-      <div class="">
-        <?php
-          wp_nav_menu(array(
-            'theme_location' => 'menu_bullets',
-          ) );
-         ?>
-      </div>
-    </div>
+<section class="bullets">
+  
+  <div class="text-center">
+    <h2 class="text-primary">BULLETS</h2>
+
+    <small class="text-dark">SELECCIONA UNO DE LOS MENÚS.</small>
   </div>
+
+  <?php
+    wp_nav_menu(array(
+      'theme_location' => 'menu_bullets',
+      'menu_class' => 'bullets-row',
+      'container' => 'div',
+    ) );
+   ?>
 </section>
 
 <div class="thick-ruler"></div>
@@ -145,47 +146,35 @@
   </div>
 </section>
 
-<section>
-      <div class="">
-        
-        
-      </div>
+<div class="thick-ruler"></div>
+
+<section class="alianzas">
+  <div class="container-fluid alianzas-container">
+
+    <div class="alianzas-a text-center"><div class="container">
+      <h3>ALIANZAS ESTRATÉGICAS</h3>
+
+      <div class="small-ruler"><div></div></div>
+
+      <p>Alianzas para el fortalecimiento de la transparencia en la infraestructura pública de El Salvador.</p><br />
+
+      <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosaliest/iaip@2x.png' ;?>" />
+    </div></div>
+
+    <div class="alianzas-b text-center"><div class="container">
+      <h3>COMPROMETIDOS CON</h3>
+
+      <div class="small-ruler"><div></div></div>
+
+      <p></p><br />
     </div>
 
-    <div class="thick-ruler"></div>
-
-    <div class="alianzas">
-
-    <div>
-      <h2 style="text-align: center;">Alianzas Estrategicas</h2>
-    </div>
-    <div>
-      <p style="text-align: center;">Alianzas para el fortalecimiento de la tranparencia en la infraestructura publica de El Salvador</p>
-    </div>
-    <div class="">
-      <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosaliest/iaip@2x.png' ;?>" alt="" width="58" height="58" />
-    </div>
-    </div>
-    <div class="comprometidos">
-      <div>
-        <h2 style="text-align: center;">COMPROMETIDOS CON</h2>
-      </div>
-      <div class="">
-        <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/compr/iaip@2x.png' ;?>" alt="" width="58" height="58" />
-      </div>
-    </div>
-
-
+  </div>
 </section>
-<section>
 
-</section>
-<section class="contacto">
-  <div class="container">
-    <div class="columnas2-4">
-      formulario aqui
-    </div>
-    <div class="columnas2-4">
+<section class="contacto bg-light">
+  <div class="container-fluid">
+    <div class="col-xs-1 col-md-6">
       <?php get_template_part( 'templates/formulario', 'contacto' ); ?>
     </div>
   </div>

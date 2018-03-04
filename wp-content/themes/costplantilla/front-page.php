@@ -49,50 +49,63 @@
 
 <div class="thick-ruler"></div>
 
-<section>
-  <h2>Eventos</h2>
-  <div class="">
+<section class="eventos">
+  <h2 class="text-center">EVENTOS</h2>
 
+  <div class="small-ruler"><div></div></div>
 
+  <br /><br />
 
-        <div class="principal contenedor">
-          <main class="texto-centrado contenido-paginas">
-            <?php while(have_posts()): the_post(); ?>
-              <article class="entrada-eventos">
-                  <?php the_post_thumbnail(); ?>
-                  <header class="informacion-entrada clear">
+  <div class="events-list">
+    <?php $i = 1; ?>
+    <?php while( have_posts() ): the_post(); ?>
+      <article class="entrada-eventos entrada-<?php echo $i; ?>">
+          <div class="event-image">
+            <div class="the-date bg-primary text-center">
+              <span class="the-day"><?php echo the_time('d'); ?></span><br />
+              <span class="the-month"><?php the_time('M.y'); ?></span>
+            </div>
 
-                    <div class="titulo-entrada">
-                      <?php the_title( '<h2>', '</h2>' ) ;?>
-                      <p class="autor">
-                        <i class="fa fa-user" aria-hidden="true"><?php the_author(); ?></i>
-                      </p>
-                    </div>
-                    <div class="fecha">
-                      <time>
-                        <?php echo the_time('d'); ?>
-                        <span><?php the_time('M'); ?></span>
-                      </time>
-                    </div>
-                  </header>
-                  <div class="contenido-entrada">
-                    <?php the_excerpt(); ?>
-                    <a href="<?php the_permalink(); ?>"> Leer mas... </a>
-                  </div>
-              </article>
-            <?php endwhile; ?>
-            <?php echo paginate_links( array(
-              'prev_text'    => sprintf( '<i></i> %1$s', __( 'Anterior', 'text-domain' ) ),
-            'next_text'    => sprintf( '%1$s <i></i>', __( 'Siguiente', 'text-domain' ) ),)
+            <?php
+              if ( has_post_thumbnail(get_the_ID()) )
+              {
+                the_post_thumbnail(); 
+              } 
+            ?>
+          </div>
 
-            ); ?>
-          </main>
+          <header class="informacion-entrada clear">
+            <div class="titulo-entrada">
+              <?php the_title( '<p class="post-title"><b>', '</b></p>' ) ;?>
 
-        </div>
+              <p class="autor">
+                <span class="fa fa-user" aria-hidden="true"></span>&nbsp; <?php the_author(); ?>
+              </p>
+            </div>
 
+            <div class="contenido-entrada">
+              <?php the_excerpt(); ?>
+              <div class="read-more-link"><a class="text-primary event-permalink" href="<?php the_permalink(); ?>">Leer más...</a></div>
+            </div>
+          </header>
+      </article>
+      <?php $i++; ?>
+    <?php endwhile; ?>
+  </div>
 
+  <br />
+
+  <div class="text-center events-pagination">
+    <?php 
+      echo paginate_links(array(
+        'prev_text' => sprintf( '<span>%1$s</span>', __( '<', 'text-domain' ) ),
+        'next_text' => sprintf( '<span>%1$s</span>', __( '>', 'text-domain' ) ),
+      )); 
+    ?>
   </div>
 </section>
+
+<br />
 
 <section class="historias-exito">
   <div class="text-center">

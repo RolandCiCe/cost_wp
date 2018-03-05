@@ -1,9 +1,5 @@
 <?php get_header(); ?>
-<<<<<<< HEAD
 
-=======
-Hello
->>>>>>> ever
   <?php while(have_posts()): the_post(); ?>
 
     <div class="hero" style="background-image:url(<?php echo get_the_post_thumbnail_url(); ?>);">

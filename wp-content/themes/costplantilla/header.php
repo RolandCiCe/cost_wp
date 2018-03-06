@@ -28,15 +28,15 @@
           <div class="collapse navbar-collapse gotham-bold" id="costNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">inicio</a>
+                <a class="nav-link" href="<?php echo get_home_url() ?>">inicio</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">quienes somos</a>
+                <a class="nav-link" href="<?php echo get_home_url().'/index.php/quienes-somos' ?>">quiénes somos</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">grupo multisectorial</a>
+                <a class="nav-link" href="<?php echo get_home_url().'/index.php/grupo-multisectoria' ?>">grupo multisectorial</a>
               </li>
 
               <li class="nav-item">

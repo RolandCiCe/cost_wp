@@ -38,13 +38,9 @@
     <small class="text-dark">SELECCIONA UNO DE LOS MENÚS.</small>
   </div>
 
-  <?php
-    wp_nav_menu(array(
-      'theme_location' => 'menu_bullets',
-      'menu_class' => 'bullets-row',
-      'container' => 'div',
-    ) );
-   ?>
+  <div class="menu-menu-bullet-container"><ul id="menu-menu-bullet" class="bullets-row"><li id="menu-item-66" class="bullet bullet-a text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="http://localhost/cost_wp/index.php/buenas-practicas-cost/">BUENAS PRACTICAS CoST</a></li>
+  <li id="menu-item-65" class="bullet bullet-b text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://localhost/cost_wp/index.php/monitoreo-de-proyectos/">MONITOREO DE PROYECTOS</a></li>
+  </ul></div>
 </section>
 
 <div class="thick-ruler"></div>
@@ -78,8 +74,8 @@
             <div class="titulo-entrada">
               <?php the_title( '<p class="post-title"><b>', '</b></p>' ) ;?>
 
-              <p class="autor">
-                <span class="fa fa-user" aria-hidden="true"></span>&nbsp; <?php the_author(); ?>
+              <p class="autor text-muted">
+                <span class="fa fa-user" aria-hidden="true"></span>&nbsp;<span><?php the_author(); ?></span>
               </p>
             </div>
 

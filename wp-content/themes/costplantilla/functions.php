@@ -9,19 +9,19 @@ wp_enqueue_style( 'normalize', get_template_directory_uri().'/css/normalize.css'
 wp_enqueue_style( 'bootstrap', get_template_directory_uri().'/css/bootstrap.min.css', array('normalize'),'4.0.0');
 wp_enqueue_style( 'fontawesome', get_template_directory_uri().'/css/font-awesome.min.css', array(''),'4.7.0');
 wp_enqueue_style( 'iconicfont', get_template_directory_uri().'/css/iconmonstr-iconic-font.min.css', array(''),'1.3.0');
-wp_enqueue_style( 'style', get_template_directory_uri().'/style.css', array(),'1.0.0');
+//wp_enqueue_style( 'style', get_template_directory_uri().'/style.css', array(),'1.0.0');
 
 wp_register_style( 'normalize', get_template_directory_uri().'/css/normalize.css',array(),'7.0.0');
 wp_register_style( 'fontawesome', get_template_directory_uri().'/css/font-awesome.min.css',array('normalize'),'4.7.0');
 wp_register_style( 'bootstrap', get_template_directory_uri().'/css/bootstrap.min.css', array('normalize','fontawesome'),'4.0.0');
-wp_register_style( 'style', get_template_directory_uri().'/style.css',array('normalize','fontawesome','bootstrap'),'1.0');
+//wp_register_style( 'style', get_template_directory_uri().'/style.css',array('normalize','fontawesome','bootstrap'),'1.0');
 
 
 //Llamando estilos
 wp_enqueue_style( 'normalize');
 wp_enqueue_style('fontawesome');
 wp_enqueue_style('bootstrap');
-wp_enqueue_style('style');
+//wp_enqueue_style('style');
 //resgistrando version actualizada Jquery
 wp_deregister_script('jquery');
 wp_register_script('jquery', get_template_directory_uri().'/js/jquery-3.3.1.min.js', false, '');

@@ -8,7 +8,7 @@
       <h2>ASEGURAMIENTO</h2>
     </div>
     <div class="">
-      <p class="rojo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta mollis luctus. Vestibulum ullamcorper enim sagittis pharetra pretium. Suspendisse eros tellus, eleifend eu egestas eget, tempor quis sem. Nulla sit amet elementum turpis. Etiam at elit eleifend, hendrerit velit vitae, scelerisque erat. Fusce ac sem eu tortor ornare ornare. Sed elementum interdum turpis. Phasellus gravida ante ipsum, sit amet euismod felis facilisis sit amet. Etiam sit amet malesuada lectus. Pellentesque lobortis sagittis ex. Etiam vestibulum ut nisi ac iaculis. Donec nec blandit mi. Ut non rhoncus quam. Etiam non libero non felis vehicula posuere. Aliquam in ex massa. Quisque lobortis magna non nisi ultricies venenatis.</p>
+      <p class="rojo">Posteriormente, la iniciativa CoST El Salvador nombrará a una comisión de profesionales en la rama de la construcción con su experiencia y siguiendo los indicadores internacionales de CoST investigarán y analizarán los proyectos de la construcción de la obra pública desde todas las etapas en las que se encuentre el trabajo. Los resultados de la investigación se documentarán y se analizarán, para que se puedan tomar decisiones sobre el costo, calidad y tiempo de ejecución de la obra pública. </p>
     </div>
   </div>
 </section>

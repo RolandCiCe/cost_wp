@@ -107,7 +107,7 @@
   <div class="text-center">
       <h2>Historias de Éxito:</h2><br />
 
-      <p class="italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac condimentum sem, eget laoreet sem. Maecenas euismod efficitur quam, vel viverra felis mollis in. </p><br />
+      <p class="italic"></p><br />
 
       <div><img class="thumbnail img-circle wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/generalidades/avatar.png' ;?>" alt="" width="96" height="96" /></div><br />
 
@@ -123,13 +123,13 @@
   <div class="mivi-item col-xs-1 col-sm-1 col-md-6">
       <h2>Misión</h2>
       
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac condimentum sem, eget laoreet sem. Maecenas euismod efficitur quam, vel viverra felis mollis in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas sit amet gravida enim, ornare mattis enim. Praesent cursus purus ex, at ultrices libero aliquet vitae. Phasellus nec mi id mi accumsan pellentesque. Sed sodales libero pharetra leo commodo auctor. Cras eu consequat purus. Nullam convallis augue id lobortis feugiat. Suspendisse vehicula blandit faucibus. Vestibulum eget augue lacinia, fringilla lorem ut, faucibus odio.</p>
+      <p>"Ser referente de incidencia en la transparencia de la obra pública."</p>
   </div>
 
   <div class="mivi-item col-xs-1 col-sm-1 col-md-6">
       <h2>Visión</h2>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac condimentum sem, eget laoreet sem. Maecenas euismod efficitur quam, vel viverra felis mollis in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas sit amet gravida enim, ornare mattis enim. Praesent cursus purus ex, at ultrices libero aliquet vitae. Phasellus nec mi id mi accumsan pellentesque. Sed sodales libero pharetra leo commodo auctor. Cras eu consequat purus. Nullam convallis augue id lobortis feugiat. Suspendisse vehicula blandit faucibus. Vestibulum eget augue lacinia, fringilla lorem ut, faucibus odio.</p>
+      <p>"Promover una cultura de transparencia y ética en los procesos de construcción de la obra pública divulgando información sistematizada que morive la auditoría social y la rendicion de cuentas."</p>
   </div>
 </section>
 

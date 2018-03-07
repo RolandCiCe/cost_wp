@@ -10,7 +10,7 @@
   </div>
   <div class="quienes-text">
     <br />
-    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta mollis luctus. Vestibulum ullamcorper enim sagittis pharetra pretium. Suspendisse eros tellus, eleifend eu egestas eget, tempor quis sem. Nulla sit amet elementum turpis. Etiam at elit eleifend, hendrerit velit vitae, scelerisque erat. Fusce ac sem eu tortor ornare ornare. Sed elementum interdum turpis. Phasellus gravida ante ipsum, sit amet euismod felis facilisis sit amet. Etiam sit amet malesuada lectus. Pellentesque lobortis sagittis ex. Etiam vestibulum ut nisi ac iaculis. Donec nec blandit mi. Ut non rhoncus quam. Etiam non libero non felis vehicula posuere. Aliquam in ex massa. Quisque lobortis magna non nisi ultricies venenatis.</p>
+    <p class="">La Iniciativa de transparencia en el Sector de la Construcción - CoST - (por sus siglas en Inglés), es una iniciativa enfocada en los países, que busca mejorar el valor del dinero que se invierte en la infraestructura pública, a través de una mayor transparencia en la ejecución de los proyectos de construcción. La participación en el programa CoST está abierta a cualquier país y a cualquier unidad o agencia gubernamental responsable de los proyectos de construcción.</p>
   </div>
 </section>
 
@@ -30,10 +30,10 @@
       <h3 class="text-primary text-center"><b>CoST</b></h3>
 
       <div class="">
-        <p class="text-warning">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta mollis luctus. Vestibulum ullamcorper enim sagittis pharetra pretium. Suspendisse eros tellus, eleifend eu egestas eget, tempor quis sem. Nulla sit amet elementum turpis. Etiam at elit eleifend, hendrerit velit vitae, scelerisque erat. Fusce ac sem eu tortor ornare ornare. Sed elementum.</p>
+        <p class="text-warning">Nace para mejorar la transparencia y la rendición de cuentas en la ejecución de proyectos de construcción en el sector público.</p>
       </div>
       <div class="">
-        <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta mollis luctus. Vestibulum ullamcorper enim sagittis pharetra pretium. Suspendisse eros tellus, eleifend eu egestas eget, tempor quis sem. Nulla sit amet elementum turpis. Etiam at elit eleifend, hendrerit velit vitae, scelerisque erat. Fusce ac sem eu tortor ornare ornare. Sed elementum interdum.</p>
+        <p class="small-text">El programa, surgió en 2007 el Reino Unido impulsada por el Departamento de Desarrollo Internacional como parte de una serie de iniciativas de transparencia enfocadas en sectores específicos de los Estados y caracterizadas por la adopción de modalidades de cooperación entre actores públicos, privados y sociedad civil. En 2008, se inició con una experiencia piloto en varios países del mundo, incluyendo Guatemala de la región centroamericana, logrando establecer un enfoque de dirección, procedimientos técnicos y de gobernabilidad. El lanzamiento oficial se realizó en 2012 y, desde entonces la metodología ha sido adoptada por 17 países que se adhieren formalmente al programa.</p>
       </div>
     </div>
   </div>
@@ -41,10 +41,10 @@
   <div class="hist-block">
     <div class="hist-text">
       <div class="">
-        <p class="text-warning">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta mollis luctus. Vestibulum ullamcorper enim sagittis pharetra pretium. Suspendisse eros tellus, eleifend eu egestas eget, tempor quis sem. Nulla sit amet elementum turpis. Etiam at elit eleifend, hendrerit velit vitae, scelerisque erat. Fusce ac sem eu tortor ornare ornare. Sed elementum.</p>
+        <p class="text-warning">La experiencia de CoST en Guatemala motivó al Ministro de Obras Públicas, Transporte, y de Vivienda y Desarrollo Urbano de El Salvador, Señor Gerson Martínez, a establecer contacto con el Secretariado Internacional de CoST (IS, por sus siglas en inglés, International Secretariat).</p>
       </div>
       <div class="">
-        <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta mollis luctus. Vestibulum ullamcorper enim sagittis pharetra pretium. Suspendisse eros tellus, eleifend eu egestas eget, tempor quis sem. Nulla sit amet elementum turpis. Etiam at elit eleifend, hendrerit velit vitae, scelerisque erat. Fusce ac sem eu tortor ornare ornare. Sed elementum interdum.</p>
+        <p class="small-text">Iniciando en marzo de 2013 el proceso de adhesión a la iniciativa. En mayo de 2013, se suscribió un Memorando de Entendimiento con el IS de CoST, para formalizar el establecimiento del Programa en el país.</p>
       </div>
     </div>
 
@@ -68,7 +68,7 @@
         <h3>Divulgación</h3>
       </div>
       <div class="card-desc">
-        <p class="rojo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta mollis luctus. Vestibulum ullamcorper enim sagittis pharetra pretium. Suspendisse eros tellus, eleifend eu egestas eget, tempor quis sem. Nulla sit amet elementum .</p>
+        <p class="rojo">El enfoque de CoST para el abordaje de la transparencia en el sector de la construcción pública, consiste en primer lugar en reunir a los actores de los diferentes sectores involucrados en un </p>
       </div>
       <div class="card-link">
         <a href="/cost_wp/index.php/divulgacion/"><img class="card-link-img" src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/iconomas.png' ; ?>" alt="" /></a>
@@ -83,7 +83,7 @@
         <h3>Aseguramiento</h3>
       </div>
       <div class="card-desc">
-        <p class="rojo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta mollis luctus. Vestibulum ullamcorper enim sagittis pharetra pretium. Suspendisse eros tellus, eleifend eu egestas eget, tempor quis sem. Nulla sit amet elementum turpis. Etiam at elit eleifend, hendrerit velit vitae, scelerisque erat. Fusce ac sem eu tortor ornare ornare. Sed element.</p>
+        <p class="rojo">Posteriormente, la iniciativa CoST El Salvador nombrará a una comisión de profesionales en la rama de la construcción con su experiencia y siguiendo los indicadores internacionales de CoST </p>
       </div>
       <div class="card-link">
         <a href="/cost_wp/index.php/aseguramiento/"><img class="card-link-img" src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/iconomas.png' ; ?>" alt="" /></a>
@@ -98,7 +98,7 @@
         <h3>Demanda Ciudadana de Rendición de Cuentas</h3>
       </div>
       <div class="card-desc">
-        <p class="rojo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta mollis luctus. Vestibulum ullamcorper enim sagittis pharetra pretium. Suspendisse eros tellus, eleifend eu egestas eget, tempor quis sem. Nulla sit amet elementum turpis. Etiam at elit eleifend, hendrerit velit vitae, scelerisque erat. Fusce ac sem eu tortor ornare ornare. Sed ele.</p>
+        <p class="rojo">Como un tercer paso, CoST El Salvador divulgará la información, utilizando diversos medios, con el fin de que la transparencia en los proyectos de construcción de la obra </p>
       </div>
       <div class="card-link">
         <a href="/cost_wp/index.php/demanda-ciudadana/"><img class="card-link-img" src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/iconomas.png' ; ?>" alt="" /></a>
@@ -110,14 +110,14 @@
 
   <h2 class="text-center">¿QUÉ GANA NUESTRO PAIS CON EL TRABAJO DE CoST EL SALVADOR?</h2>
 
-  <p class="rojo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta mollis luctus. Vestibulum ullamcorper enim sagittis pharetra pretium. Suspendisse eros tellus, eleifend eu egestas eget, tempor quis sem. Nulla sit amet elementum turpis. Etiam at elit eleifend, hendrerit velit vitae, scelerisque erat. Fusce ac sem eu tortor ornare ornare. Sed elementum interdum turpis. Phasellus gravida ante ipsum, sit amet euismod felis facilisis sit amet. Etiam sit amet malesuada lectus. Pellentesque lobortis sagittis ex. Etiam vestibulum ut nisi ac iaculis. Donec nec blandit mi. Ut non rhoncus quam. Etiam non libero non felis vehicula posuere. Aliquam in ex massa. Quisque lobortis magna non nisi ultricies venenatis.</p>
+  <p class="rojo">CoST ha desarrollado procedimientos para recopilar, verificar y divulgar información sobre proyectos de construcción con financiamiento público. La expectativa es que la divulgación incremente la transparencia y la rendición de cuentas, y por lo tanto, a largo plazo, ayude en el mejoramiento del valor del dinero de las inversiones realizadas en infraestructura. Existen evidencias de que este proceso ya ha generado un impacto positivo. Por ejemplo, en algunos países ha ocasionado cambios en los procedimientos gubernamentales, mientras que otros han integrado los procedimientos CoST a sus marcos de trabajo institucionales.</p>
 </section>
 
 <section class="lema">
   <div class="lema-block text-center bg-success">
       <br /><h2 text-center>Nuestro Lema:</h2>
 
-      <p class="lema-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta mollis luctus. Vestibulum ullamcorper enim sagittis pharetra pretium. Suspendisse eros tellus, eleifend eu egestas eget, tempor quis sem. Nulla sit amet elementum turpis. Etiam at elit eleifend, hendrerit velit vitae, scelerisque erat. Fusce ac sem eu tortor ornare ornare. Sed elementum in</p>
+      <p class="lema-text">Incrementar el valor del dinero invertido en la infraestructura pública al incrementar la transparencia con la que se entregan los proyectos de construcción.</p>
     </div>
 </section>
 

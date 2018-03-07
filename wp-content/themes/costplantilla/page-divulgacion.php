@@ -8,7 +8,7 @@
       <h2>Divulgacion</h2>
     </div>
     <div class="">
-      <p class="rojo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta mollis luctus. Vestibulum ullamcorper enim sagittis pharetra pretium. Suspendisse eros tellus, eleifend eu egestas eget, tempor quis sem. Nulla sit amet elementum turpis. Etiam at elit eleifend, hendrerit velit vitae, scelerisque erat. Fusce ac sem eu tortor ornare ornare. Sed elementum interdum turpis. Phasellus gravida ante ipsum, sit amet euismod felis facilisis sit amet. Etiam sit amet malesuada lectus. Pellentesque lobortis sagittis ex. Etiam vestibulum ut nisi ac iaculis. Donec nec blandit mi. Ut non rhoncus quam. Etiam non libero non felis vehicula posuere. Aliquam in ex massa. Quisque lobortis magna non nisi ultricies venenatis.</p>
+      <p class="rojo">El enfoque de CoST para el abordaje de la transparencia en el sector de la construcción pública, consiste en primer lugar en reunir a los actores de los diferentes sectores involucrados en un terreno neutral, mediante un mecanismo que les permita tomar decisiones conjuntas a través de un proceso democrático, compartiendo riesgo, responsabilidades y persiguiendo de manera conjunta los esfuerzos para mejorar la rentabilidad, la eficiencia y la eficacia en la ejecución de obras públicas. A este conjunto de sectores participando en la toma de decisiones se le llama Grupo Multisectorial. Con ello se permite tener un abordaje de varios sectores de la sociedad salvadoreña y multidisciplinario de la gestión de los proyectos de infraestructura pública, enriqueciendo las capacidades para poder evaluar las diferentes etapas y garantizar el interés general sobre el particular. </p>
     </div>
   </div>
 </section>

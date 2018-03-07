@@ -4,7 +4,7 @@
   <div class="contenido-hero">
     <h2><b>GRUPO</b> MULTISECTORIAL</h2>
 
-    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta mollis luctus. Vestibulum ullamcorper enim sagittis pharetra pretium. Suspendisse eros tellus, eleifend eu egestas eget, tempor quis sem. Nulla sit amet elementum turpis. Etiam at elit eleifend, hendrerit velit vitae, scelerisque erat. Fusce ac sem eu tortor ornare ornare. Sed elementum interdum turpis. Phasellus gravida ante ipsum, sit amet euismod felis facilisis sit amet. Etiam sit amet malesuada lectus. Pellentesque lobortis sagittis ex. Etiam vestibulum ut nisi ac iaculis. Donec nec blandit mi. Ut non rhoncus quam. Etiam non libero non felis vehicula posuere. Aliquam in ex massa. Quisque lobortis magna non nisi ultricies venenatis.</p>
+    <p class="">CoST es liderado por un Grupo Multisectorial (MSG, por sus siglas en inglés, Multi- Stakeholder Group) que reúne a diferentes actores de la sociedad en cada país, con la función de tomar decisiones sobre la estrategia del Programa. En El Salvador Las acciones del programa se ejecutan bajo el liderazgo de un Grupo Multisectorial conformado por diferentes sectores como: sector público, privado, sociedad civil y académico. La representación de cada sector se conforma por: </p>
   </div>
 </div>
 
@@ -12,7 +12,7 @@
   <div class="obj-desc">
     <h1 class=""><b><span class="text-dark">OBJETIVO DEL</span><br /></b><span class="text-primary">PROGRAMA</span></h1>
     <br />
-    <p class="">Curabitur at dolor orci. Quisque a aliquam urna. Donec quis sollicitudin neque. Curabitur varius odio eu enim dictum, eu commodo turpis scelerisque. Nullam sodales enim sit amet ultricies consequat. Donec ut quam rutrum eros imperdiet sodales. Nulla mi leo, pellentesque ornare molestie et, egestas sit amet diam. Cras placerat ipsum quis fermentum rhoncus. Proin volutpat turpis eu risus vestibulum fringilla.</p>
+    <p class="">Es incrementar el valor de la infraestructura pública en todo el mundo, al aumentar la transparencia con la que se ejecutan los proyectos, además de fomentar la demanda ciudadana de rendición de cuentas. </p>
   </div>
 
   <div class="obj-secciones">
@@ -25,9 +25,8 @@
 
       <div class="seccion-lista">
         <ul>
-          <li>Hola</li>
-          <li>Mundo</li>
-          <li>Esto</li>
+          <li>Ministerio de Obras Públicas, Transporte y de Vivienda y Desarrollo Urbano Fondo de Conservación Vial. </li>
+          <li>FOVIAL</li>          
         </ul>
       </div>
     </div>
@@ -41,9 +40,9 @@
 
       <div class="seccion-lista">
         <ul>
-          <li>Hola</li>
-          <li>Mundo</li>
-          <li>Esto</li>
+          <li>Cámara Salvadoreña de la Industria de la Construcción. </li>
+          <li>Colegio de Arquitectos de El Salvador.</li>
+          
         </ul>
       </div>
     </div>
@@ -57,9 +56,9 @@
 
       <div class="seccion-lista">
         <ul>
-          <li>Hola</li>
-          <li>Mundo</li>
-          <li>Esto</li>
+          <li>Iniciativa Social para la democracia.</li>
+          <li>Sistema de Asesoría y Capacitación para el Desarrollo Local.</li>
+          
         </ul>
       </div>
     </div>
@@ -73,9 +72,9 @@
 
       <div class="seccion-lista">
         <ul>
-          <li>Hola</li>
-          <li>Mundo</li>
-          <li>Esto</li>
+          <li>Universidad de El Salvador.</li>
+          <li>Universidad Tecnológica de El Salvador.</li>
+          <li>Universidad Politécnica de El Salvador. </li>
         </ul>
       </div>
     </div>
@@ -93,7 +92,7 @@
 
   <br />
 
-  <p class="container">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra sit amet enim eu dapibus. Aliquam vestibulum condimentum risus in sodales. Fusce nec enim vitae mauris imperdiet lacinia. Nulla et maximus dolor. Vestibulum ut nulla sit amet velit accumsan laoreet sed ac felis. Sed feugiat elit et purus ultricies, nec venenatis orci bibendum. Donec nec dignissim risus, vel venenatis neque. Phasellus nec lorem feugiat, ultricies leo sed, rutrum ex. Nulla quis imperdiet libero, at blandit ligula</p>
+  <p class="container"><b>E</b>l consejo Directivo de CoST El Salvador, es electo entre los miembros del Grupo Multisectorial de CoST en pleno por mayoría calificada; CoST El Salvador eligió su Consejo Directivo el día <b>jueves 11 de enero de 2018</b>, el cual está conformado de la siguiente manera:</p>
 </section>
 
 <section class="consejo-carousel">

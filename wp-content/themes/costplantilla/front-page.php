@@ -31,7 +31,7 @@
 </section>
 
 <section class="bullets">
-  
+
   <div class="text-center">
     <h2 class="text-primary">BULLETS</h2>
 
@@ -54,7 +54,15 @@
 
   <div class="events-list">
     <?php $i = 1; ?>
-    <?php while( have_posts() ): the_post(); ?>
+    <?php
+     $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+    $query = new WP_Query( array(
+        'category_name' => 'eventos',
+        'paged' => $paged
+    ) );
+    while( $query->have_posts() ): $query->the_post();
+
+     ?>
       <article class="entrada-eventos entrada-<?php echo $i; ?>">
           <div class="event-image">
             <div class="the-date bg-primary text-center">
@@ -65,8 +73,8 @@
             <?php
               if ( has_post_thumbnail(get_the_ID()) )
               {
-                the_post_thumbnail(); 
-              } 
+                the_post_thumbnail();
+              }
             ?>
           </div>
 
@@ -92,11 +100,22 @@
   <br />
 
   <div class="text-center events-pagination">
-    <?php 
+    <?php
       echo paginate_links(array(
-        'prev_text' => sprintf( '<span>%1$s</span>', __( '<', 'text-domain' ) ),
-        'next_text' => sprintf( '<span>%1$s</span>', __( '>', 'text-domain' ) ),
-      )); 
+            'base'         => str_replace( 999999999, '%#%', esc_url( get_pagenum_link( 999999999 ) ) ),
+            'total'        => $query->max_num_pages,
+            'current'      => max( 1, get_query_var( 'paged' ) ),
+            'format'       => '?paged=%#%',
+            'show_all'     => false,
+            'type'         => 'plain',
+            'end_size'     => 2,
+            'mid_size'     => 1,
+            'prev_next'    => true,
+            'prev_text' => sprintf( '<span>%1$s</span>', __( '<', 'text-domain' ) ),
+            'next_text' => sprintf( '<span>%1$s</span>', __( '>', 'text-domain' ) ),
+            'add_args'     => false,
+           'add_fragment' => '',
+      ));
     ?>
   </div>
 </section>
@@ -122,7 +141,7 @@
 <section class="mi-vi row bg-primary">
   <div class="mivi-item col-xs-1 col-sm-1 col-md-6">
       <h2>Misión</h2>
-      
+
       <p>"Ser referente de incidencia en la transparencia de la obra pública."</p>
   </div>
 

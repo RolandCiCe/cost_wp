@@ -56,7 +56,7 @@
 
 <section class="procs">
   <br /><h1 class="text-center">CUALES SON LOS PROCESOS ESENCIALES DE CoST?</h1>
-  
+
   <br />
 
   <div class="cards">
@@ -88,6 +88,7 @@
       <div class="card-link">
         <a href="/cost_wp/index.php/aseguramiento/"><img class="card-link-img" src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/iconomas.png' ; ?>" alt="" /></a>
       </div>
+      
     </div>
 
     <div class="demanda-ciudadana card">

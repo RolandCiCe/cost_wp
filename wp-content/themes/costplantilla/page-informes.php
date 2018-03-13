@@ -1,12 +1,21 @@
 <?php get_header(); ?>
+<div class="contenido-hero single-header informes">
+</div>
+
+<div class="hist-block">
+  <img src="<?php echo get_template_directory_uri().'/img/descargas/imag01.png' ; ?>" alt="" />
+
+  <div class="hist-text">
+    <h3 class="text-primary text-center"><b>Titulo aqui.</b></h3>
+
+    <div class="">
+      <p class="">Texto informativo aqui.</p>
+    </div>
+  </div>
+</div> <br />
+
 <section class="eventos">
-  <h2 class="text-center">Informes</h2>
-
-  <div class="small-ruler"><div></div></div>
-
-  <br /><br />
-
-  <div class="events-list">
+  <div class="events-list container-fluid">
     <?php $i = 1; ?>
     <?php
      $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
@@ -72,5 +81,5 @@
       ));
     ?>
   </div>
-</section>
+</section><br />
 <?php get_footer(); ?>

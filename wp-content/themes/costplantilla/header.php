@@ -40,7 +40,17 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">publicaciones</a>
+                <div class="dropdown">
+                  <a class="btn btn-default dropdown-toggle" href="#/" id="mnuPublicaciones" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    PUBLICACIONES
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu text-center" aria-labelledby="mnuPublicaciones">
+                    <li><a href="/cost_wp/index.php/investigaciones/">Investigaciones</a></li>
+                    <li><a href="/cost_wp/index.php/descargas/">Descargas</a></li>
+                    <li><a href="/cost_wp/index.php/informes/">Informes</a></li>
+                  </ul>
+                </div>
               </li>
 
               <li class="nav-item">

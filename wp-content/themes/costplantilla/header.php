@@ -49,6 +49,8 @@
                     <li><a href="/cost_wp/index.php/investigaciones/">Investigaciones</a></li>
                     <li><a href="/cost_wp/index.php/descargas/">Descargas</a></li>
                     <li><a href="/cost_wp/index.php/informes/">Informes</a></li>
+                    <li><a href="/cost_wp/index.php/planes-trabajo/">Planes de Trabajo</a></li>
+                    <li><a href="/cost_wp/index.php/proyectos-aprobados/">Proyectos Aprobados</a></li>
                   </ul>
                 </div>
               </li>
@@ -58,7 +60,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">empleos</a>
+                <a class="nav-link" href="/cost_wp/index.php/empleos">empleos</a>
               </li>
             </ul>
             <?php

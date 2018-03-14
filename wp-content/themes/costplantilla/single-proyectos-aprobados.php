@@ -2,13 +2,14 @@
 
   <?php while(have_posts()): the_post(); ?>
 
-    <div class="">
-      <?php the_post_thumbnail(); ?>
-    </div>
-      <div class="contenido-hero">
+    <div class="contenido-hero single-header proyectos-aprobados">
         <div class="texto-hero">
-          <?php the_title('<h1>','</h1>'); ?>
+          <?php // the_title('<h1>','</h1>'); ?>
         </div>
+      </div>
+
+      <div class="contenido-hero single-name proyectos-aprobados">
+        <?php the_title('<h1>','</h1>'); ?>
       </div>
 
 

@@ -38,8 +38,8 @@
     <small class="text-dark">SELECCIONA UNO DE LOS MENÚS.</small>
   </div>
 
-  <div class="menu-menu-bullet-container"><ul id="menu-menu-bullet" class="bullets-row"><li id="menu-item-66" class="bullet bullet-a text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="http://localhost/cost_wp/index.php/buenas-practicas-cost/">BUENAS PRACTICAS CoST</a></li>
-  <li id="menu-item-65" class="bullet bullet-b text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://localhost/cost_wp/index.php/monitoreo-de-proyectos/">MONITOREO DE PROYECTOS</a></li>
+  <div class="menu-menu-bullet-container"><ul id="menu-menu-bullet" class="bullets-row"><li id="menu-item-66" class="bullet bullet-a text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="http://localhost/cost_wp/index.php/buenas-practicas-cost/" class="no-text-transform">BUENAS PRACTICAS CoST</a></li>
+  <li id="menu-item-65" class="bullet bullet-b text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://localhost/cost_wp/index.php/monitoreo-de-proyectos/" class="no-text-transform">MONITOREO DE PROYECTOS</a></li>
   </ul></div>
 </section>
 

@@ -33,7 +33,7 @@
 <section class="bullets">
 
   <div class="text-center">
-    <h2 class="text-primary">BULLETS</h2>
+    <!--<h2 class="text-primary">BULLETS</h2>-->
 
     <small class="text-dark">SELECCIONA UNO DE LOS MENÚS.</small>
   </div>
@@ -126,14 +126,14 @@
   <div class="text-center">
       <h2>Historias de Éxito:</h2><br />
 
-      <p class="italic"></p><br />
+      <!--<p class="italic"></p><br />
 
       <div><img class="thumbnail img-circle wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/generalidades/avatar.png' ;?>" alt="" width="96" height="96" /></div><br />
 
       <div class="small-ruler"><div></div></div>
 
       <span class="cost-sub">Gloria Lopez</span>
-      <span class="cost-sub text-primary">Santa Tecla</span>
+      <span class="cost-sub text-primary">Santa Tecla</span>-->
 
   </div>
 </section>
@@ -153,7 +153,7 @@
 </section>
 
 <section class="gms">
-  <h2 style="text-align: center;">GRUPO MULTISECTORIAL (GMS)</h2>
+  <h2 style="text-align: center;">GRUPO MULTISECTORIAL</h2>
 
   <div class="small-ruler"><div></div></div>
 
@@ -190,7 +190,7 @@
     </div></div>
 
     <div class="alianzas-b text-center"><div class="container">
-      <h3>COMPROMETIDOS CON</h3>
+      <!--<h3>COMPROMETIDOS CON</h3>-->
 
       <div class="small-ruler"><div></div></div>
 

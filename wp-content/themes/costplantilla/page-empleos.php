@@ -9,7 +9,7 @@
     <h3 class="text-primary text-center"><b>Titulo aqui.</b></h3>
 
     <div class="">
-      <p class="">Texto informativo aqui.</p>
+      <p class="">Por el momento CoST El Salvador no cuenta con empleos disponible.</p>
     </div>
   </div>
 </div> <br />

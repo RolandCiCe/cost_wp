@@ -25,8 +25,8 @@
 
       <div class="seccion-lista">
         <ul>
-          <li>Ministerio de Obras Públicas, Transporte y de Vivienda y Desarrollo Urbano Fondo de Conservación Vial. </li>
-          <li>FOVIAL</li>          
+          <li>Ministerio de Obras Públicas, Transporte y de Vivienda y Desarrollo Urbano, MOPTVDU </li>
+          <li>Fondo de Conservación Vial, FOVIAL</li>
         </ul>
       </div>
     </div>
@@ -40,9 +40,9 @@
 
       <div class="seccion-lista">
         <ul>
-          <li>Cámara Salvadoreña de la Industria de la Construcción. </li>
-          <li>Colegio de Arquitectos de El Salvador.</li>
-          
+          <li>Cámara Salvadoreña de la Industria de la Construcción, CASALCO</li>
+          <li>Colegio de Arquitectos de El Salvador, CADES</li>
+
         </ul>
       </div>
     </div>
@@ -56,9 +56,9 @@
 
       <div class="seccion-lista">
         <ul>
-          <li>Iniciativa Social para la democracia.</li>
-          <li>Sistema de Asesoría y Capacitación para el Desarrollo Local.</li>
-          
+          <li>Iniciativa Social para la democracia, ISD</li>
+          <li>Sistema de Asesoría y Capacitación para el Desarrollo Local, SACDEL</li>
+
         </ul>
       </div>
     </div>
@@ -72,9 +72,9 @@
 
       <div class="seccion-lista">
         <ul>
-          <li>Universidad de El Salvador.</li>
-          <li>Universidad Tecnológica de El Salvador.</li>
-          <li>Universidad Politécnica de El Salvador. </li>
+          <li>Universidad de El Salvador, UES</li>
+          <li>Universidad Tecnológica de El Salvador, UTEC</li>
+          <li>Universidad Politécnica de El Salvador, UES</li>
         </ul>
       </div>
     </div>

@@ -7,7 +7,7 @@
     <p><span class="fa fa-phone"></span>&nbsp;+(503) 2275-1020</p>
   </div>
   <div class="email">
-    <p><span class="fa fa-envelope"></span>&nbsp;coordinacion.nacional@costelsalvador.org.sv</p>
+    <p><span class="fa fa-envelope"></span>&nbsp;administracion@costelsalvador.org.sv</p>
   </div>
 
   <!-- <div class="">

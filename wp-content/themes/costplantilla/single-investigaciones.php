@@ -7,14 +7,8 @@
         </div>
       </div>
 
-      <div class="contenido-hero single-name investigaciones">
-        <?php the_title('<h1>','</h1>'); ?>
-      </div>
-
-    <div class="principal contenedor">
-      <main class="texto-centrado contenido-paginas">
-          <?php the_content(); ?>
-      </main>
+    <div class="principal contenedor-pdf">
+      <?php the_content(); ?>
     </div>
   <?php endwhile; ?>
 

@@ -18,7 +18,7 @@
   <div class="obj-secciones text-justified">
     <div class="obj-seccion">
       <div class="seccion-titulo bg-primary">
-        <h2><b>SECTOR</b><br />PÚBLICO</h2>
+        <h2><b>SECTOR</b><br /><span style="font-size: 60%;">PÚBLICO</span></h2>
       </div>
 
       <div class="seccion-img"><img class="img-obj" src="<?php echo get_template_directory_uri().'/img/GMS/sector_publico.png' ; ?>" alt="" /></div>
@@ -33,7 +33,7 @@
 
     <div class="obj-seccion">
       <div class="seccion-titulo bg-primary">
-        <h2><b>SECTOR</b><br />PRIVADO</h2>
+        <h2><b>SECTOR</b><br /><span style="font-size: 60%;">PRIVADO</span></h2>
       </div>
 
       <div class="seccion-img"><img class="img-obj" src="<?php echo get_template_directory_uri().'/img/GMS/sector_privado.png' ; ?>" alt="" /></div>
@@ -49,7 +49,7 @@
 
     <div class="obj-seccion">
       <div class="seccion-titulo bg-primary">
-        <h2><b>SOCIEDAD</b><br />CIVIL</h2>
+        <h2><b>SOCIEDAD</b><br /><span style="font-size: 60%;">CIVIL</span></h2>
       </div>
 
       <div class="seccion-img"><img class="img-obj" src="<?php echo get_template_directory_uri().'/img/GMS/sociedad_civil.png' ; ?>" alt="" /></div>
@@ -65,7 +65,7 @@
 
     <div class="obj-seccion">
       <div class="seccion-titulo bg-primary">
-        <h2><b>SECTOR</b><br />ACADÉMICO</h2>
+        <h2><b>SECTOR</b><br /><span style="font-size: 60%;">ACADÉMICO</span></h2>
       </div>
 
       <div class="seccion-img"><img class="img-obj" src="<?php echo get_template_directory_uri().'/img/GMS/sector_academico.png' ; ?>" alt="" /></div>

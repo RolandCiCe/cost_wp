@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
   <?php while(have_posts()): the_post(); ?>
-      <div class="contenido-hero single-header investigaciones">
+      <div class="contenido-hero single-header buenas-practicas">
         <div class="texto-hero">
           <?php //the_title('<h1>','</h1>'); ?>
         </div>

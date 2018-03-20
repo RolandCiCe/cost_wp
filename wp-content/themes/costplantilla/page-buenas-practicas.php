@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="contenido-hero single-header investigaciones">
+<div class="contenido-hero single-header buenas_practicas">
 </div><br />
 
 <section class="eventos">

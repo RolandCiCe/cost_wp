@@ -22,7 +22,9 @@ if (in_category('Investigaciones')) {
       include(TEMPLATEPATH . '/single-dashboard-aseguramiento-hidraulica.php');
 } elseif (in_category('Telecomunicaciones')) {
       include(TEMPLATEPATH . '/single-dashboard-aseguramiento-telecomunicaciones.php');                
-} else { // Sino, cargo otro single por defecto
+} elseif (in_category('buenaspracticas')) {
+    include(TEMPLATEPATH . '/single-buenas-practicas.php');
+}  else { // Sino, cargo otro single por defecto
     include(TEMPLATEPATH . '/single-default.php');
 }
 ?>

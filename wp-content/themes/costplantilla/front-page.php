@@ -16,15 +16,15 @@
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/SLIDE/slide1@2x.png' ;?>" alt="img01">
+        <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/SLIDE/imag_slide01.jpg' ;?>" alt="img01">
       </div>
 
       <div class="carousel-item">
-        <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/SLIDE/slide02@2x.png' ;?>" alt="img02">
+        <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/SLIDE/imag_slide02.jpg' ;?>" alt="img02">
       </div>
 
       <div class="carousel-item">
-        <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/SLIDE/slide3@2x.png' ;?>" alt="img03">
+        <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/SLIDE/imag_slide03.jpg' ;?>" alt="img03">
       </div>
     </div>
   </div>
@@ -38,8 +38,8 @@
     <small class="text-dark">SELECCIONA UNO DE LOS MENÚS.</small>
   </div>
 
-  <div class="menu-menu-bullet-container"><ul id="menu-menu-bullet" class="bullets-row"><li id="menu-item-66" class="bullet bullet-a text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="http://localhost/cost_wp/index.php/buenas-practicas-cost/" class="no-text-transform">BUENAS PRACTICAS CoST</a></li>
-  <li id="menu-item-65" class="bullet bullet-b text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://localhost/cost_wp/index.php/monitoreo-de-proyectos/" class="no-text-transform">MONITOREO DE PROYECTOS</a></li>
+  <div class="menu-menu-bullet-container"><ul id="menu-menu-bullet" class="bullets-row"><li id="menu-item-66" class="bullet bullet-a text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="http://localhost/cost_wp/index.php/buenas-practicas/" class="no-text-transform">BUENAS PRACTICAS CoST</a></li>
+  <li id="menu-item-65" class="bullet bullet-b text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://localhost/cost_wp/index.php/dashboard-aseguramiento/" class="no-text-transform">MONITOREO DE PROYECTOS</a></li>
   </ul></div>
 </section>
 
@@ -163,14 +163,14 @@
     <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 47@2x.png' ;?>" />
     <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 48@2x.png' ;?>" />
     <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 49@2x.png' ;?>" />
-    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 50@2x.png' ;?>" />
+    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/cades.png' ;?>" />
   </div>
   <br />
   <div class="gms-row">
     <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 51@2x.png' ;?>" />
     <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 52@2x.png' ;?>" />
     <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 53@2x.png' ;?>" />
-    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/sacdel@2x.png' ;?>" />
+    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/sacdel.png' ;?>" />
   </div>
 </section>
 
@@ -203,7 +203,13 @@
 <section class="contacto bg-light">
   <div class="container-fluid">
     <div class="col-xs-1 col-md-6">
-      <?php get_template_part( 'templates/formulario', 'contacto' ); ?>
+      <?php get_template_part( 'templates/formulario', 'contacto' );?>
+    <!--  <?php $recent = new WP_Query("page_id=248"); while($recent->have_posts()) : $recent->the_post();?>
+       <h3><?php the_title(); ?></h3>
+       <?php the_content(); ?>
+      <?php endwhile; ?>-->
+
+
     </div>
   </div>
 </section>

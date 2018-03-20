@@ -62,3 +62,10 @@ function html5wp_excerpt($length_callback = '', $more_callback = '')
     $output = '<p>' . $output . '</p>';
     echo $output;
 }
+
+function get_category_count($category_id)
+{
+  $category_data = get_category($category_id, ARRAY_A);
+
+  return !empty($category_data) && isset($category_data['category_count']) ? (int)$category_data['category_count'] : NULL;
+}

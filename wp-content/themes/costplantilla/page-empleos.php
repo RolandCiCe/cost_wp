@@ -28,6 +28,11 @@ $query = new WP_Query( array(
         <?php $i = 1; ?>
         <?php
 
+        if ( !$query->have_posts() )
+        {
+          echo '<h3 class="text-center">Por el momento no hay información para mostrar.</h3>';
+        }
+    
         while( $query->have_posts() ): $query->the_post();
 
          ?>
@@ -41,7 +46,12 @@ $query = new WP_Query( array(
                   if ( has_post_thumbnail(get_the_ID()) )
                   {
                     the_post_thumbnail();
+                    echo "<div class='item-hover'></div>";
                   }
+              else
+              {
+                echo "<div class='no-pic'></div><div class='item-hover'></div>";
+              }
                 ?>
               </div>
 

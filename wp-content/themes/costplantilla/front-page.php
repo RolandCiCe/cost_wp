@@ -74,6 +74,11 @@
               if ( has_post_thumbnail(get_the_ID()) )
               {
                 the_post_thumbnail();
+                echo "<div class='item-hover'></div>";
+              }
+              else
+              {
+                echo "<div class='no-pic'></div><div class='item-hover'></div>";
               }
             ?>
           </div>

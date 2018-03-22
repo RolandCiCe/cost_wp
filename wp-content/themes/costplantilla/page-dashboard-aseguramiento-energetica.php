@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <div class="contenido-hero single-header aseg aseg-energ">
+  <h1>INFRAESTRUCTURA energética</h1>
 </div><br />
 
 <section class="eventos">
@@ -11,6 +12,12 @@
         'category_name' => 'Energetica',
         'paged' => $paged
     ) );
+    
+    if ( !$query->have_posts() )
+    {
+      echo '<h3 class="text-center">Por el momento no hay información para mostrar.</h3>';
+    }
+    
     while( $query->have_posts() ): $query->the_post();
 
      ?>
@@ -25,6 +32,11 @@
               if ( has_post_thumbnail(get_the_ID()) )
               {
                 the_post_thumbnail();
+                echo "<div class='item-hover'></div>";
+              }
+              else
+              {
+                echo "<div class='no-pic'></div><div class='item-hover'></div>";
               }
             ?>
           </div>

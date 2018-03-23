@@ -1,7 +1,12 @@
 <?php get_header(); ?>
 <div class="contenido-hero single-header buenas_practicas">
-</div><br />
 
+</div><br />
+<div class="">
+  <img src="<?php echo get_template_directory_uri().'/img/buenas_practicas/buenas_practicas.jpg' ;?>">
+  <img src="<?php echo get_template_directory_uri().'/img/buenas_practicas/iconos_buenas_practicas.png' ;?>">
+  <p>BUENAS PRACTICAS <b>CoST</b></p>
+</div>
 <section class="eventos">
   <div class="events-list container-fluid">
     <?php $i = 1; ?>
@@ -16,7 +21,7 @@
     {
       echo '<h3 class="text-center">Por el momento no hay información para mostrar.</h3>';
     }
-    
+
     while( $query->have_posts() ): $query->the_post();
 
      ?>

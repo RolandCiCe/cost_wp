@@ -1,12 +1,10 @@
 <?php get_header(); ?>
-<div class="contenido-hero single-header buenas_practicas">
-
-</div><br />
-<div class="">
-  <img src="<?php echo get_template_directory_uri().'/img/buenas_practicas/buenas_practicas.jpg' ;?>">
+<div class="contenido-hero single-header aseg buenas_practicas">
   <img src="<?php echo get_template_directory_uri().'/img/buenas_practicas/iconos_buenas_practicas.png' ;?>">
-  <p>BUENAS PRACTICAS <b>CoST</b></p>
-</div>
+  <br /><span>BUENAS PRÁCTICAS</span>
+  <span class="gotham-bold">CoST</span>
+</div><br />
+
 <section class="eventos">
   <div class="events-list container-fluid">
     <?php $i = 1; ?>

@@ -5,7 +5,9 @@ $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 $query = new WP_Query( array(
    'category_name' => 'Empleos',
    'paged' => $paged
-) );  ?>
+) );
+
+?>
 
 </div>
 
@@ -13,16 +15,6 @@ $query = new WP_Query( array(
 <div class="hist-block">
   <!--<img src="<?php echo get_template_directory_uri().'/img/descargas/imag03.png' ; ?>" alt="" />-->
 </div> <br />
-<?php
-  $cat_count = $wpdb->get_var( "SELECT tax.count FROM wp_term_taxonomy tax
-                                  LEFT JOIN wp_terms term ON term.term_id = tax.term_id
-                                  WHERE tax.taxonomy = 'category'
-                                  and term.slug = 'empleos'
-                                  ORDER BY tax.count DESC" );
-
-?>
-<?php if($cat_count != 0): ?>
-
     <section class="eventos">
       <div class="events-list container-fluid">
         <?php $i = 1; ?>
@@ -30,9 +22,9 @@ $query = new WP_Query( array(
 
         if ( !$query->have_posts() )
         {
-          echo '<h3 class="text-center">Por el momento no hay información para mostrar.</h3>';
+          echo '<h3 class="text-center">Por el momento CoST El Salvador no cuenta con empleos disponibles.</h3>';
         }
-    
+
         while( $query->have_posts() ): $query->the_post();
 
          ?>
@@ -95,9 +87,5 @@ $query = new WP_Query( array(
           ));
         ?>
       </div>
-    <?php else:
-      echo "<p>Por el momento CoST El Salvador no cuenta con empleos disponible.</p>";
-    ?>
-    <?php endif; ?>
 </section>
 <?php get_footer(); ?>

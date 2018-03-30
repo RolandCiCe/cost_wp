@@ -49,6 +49,7 @@
                     <li><a href="/cost_wp/index.php/investigaciones/">Investigaciones</a></li>
                     <li><a href="/cost_wp/index.php/descargas/">Descargas</a></li>
                     <li><a href="/cost_wp/index.php/informes/">Informes</a></li>
+                    <li><a href="/cost_wp/index.php/eventos/">Eventos</a></li>
                   </ul>
                 </div>
               </li>

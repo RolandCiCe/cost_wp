@@ -32,7 +32,7 @@
 </footer>
 
 <div class="copyright text-danger text-center">
-  <small>© COPYRIGHT 2017 CREADO POR SECRETARIADO GENERAL</small>
+  <small>© COPYRIGHT 2018 CREADO POR SECRETARIADO GENERAL</small>
 </div>
 
 <?php wp_footer(); ?>

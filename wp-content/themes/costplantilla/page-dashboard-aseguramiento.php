@@ -3,7 +3,7 @@
   <div class="single-header aseg text-justified simple-padding">
     <h1>¿Qué es el <b class="gotham-bold">aseguramiento</b>?</h1><br />
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget mauris et felis ultrices vestibulum at et ante. Morbi a consectetur ipsum. Nam ut molestie dolor. Integer eu metus fermentum, sagittis augue nec, feugiat mauris. Mauris luctus, diam id varius sodales, velit sapien suscipit ligula, pharetra imperdiet lacus diam consequat tellus. Vestibulum interdum sit amet lectus vel mollis. Praesent quis mollis dui, a ornare eros. Pellentesque luctus gravida eros non porttitor. Aenean sagittis libero non tortor eleifend, in viverra urna dapibus. Nulla non porttitor ante. Pellentesque at tincidunt enim.</p>
+    <p></p>
   </div>
 
   <br />

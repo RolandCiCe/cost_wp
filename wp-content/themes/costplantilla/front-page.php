@@ -9,8 +9,8 @@
     </ol>
 
     <div class="carousel-caption d-none d-md-block">
-      <p>pioneros de la transparencia</p>
-      <h1 class="gotham-bold">en obras de infraestructura</h1>
+      <p>Pioneros de la transparencia</p>
+      <h2 class="gotham-bold">en obras de infraestructura pública</h2>
       <h3>en el salvador</h3>
     </div>
 
@@ -38,8 +38,8 @@
     <small class="text-dark">SELECCIONA UNO DE LOS MENÚS.</small>
   </div>
 
-  <div class="menu-menu-bullet-container"><ul id="menu-menu-bullet" class="bullets-row"><li id="menu-item-66" class="bullet bullet-a text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="http://localhost:8081/cost_wp/index.php/buenas-practicas/" class="no-text-transform">BUENAS PRACTICAS CoST</a></li>
-  <li id="menu-item-65" class="bullet bullet-b text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://localhost:8081/cost_wp/index.php/dashboard-aseguramiento/" class="no-text-transform">MONITOREO DE PROYECTOS</a></li>
+  <div class="menu-menu-bullet-container"><ul id="menu-menu-bullet" class="bullets-row"><li id="menu-item-66" class="bullet bullet-a text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="/cost_wp/index.php/buenas-practicas/" class="no-text-transform">BUENAS PRACTICAS CoST</a></li>
+  <li id="menu-item-65" class="bullet bullet-b text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="/cost_wp/index.php/dashboard-aseguramiento/" class="no-text-transform">MONITOREO DE PROYECTOS</a></li>
   </ul></div>
 </section>
 
@@ -48,7 +48,7 @@
 <section class="eventos">
   <h2 class="text-center">EVENTOS</h2>
 
-  <div class="small-ruler"><div></div></div>
+  <!--<div class="small-ruler"><div></div></div>-->
 
   <br /><br />
 
@@ -129,9 +129,9 @@
 
 <section class="historias-exito">
   <div class="text-center">
-      <h2>Historias de Éxito:</h2><br />
+      <!--<h2>Historias de Éxito:</h2><br />
 
-      <!--<p class="italic"></p><br />
+      <p class="italic"></p><br />
 
       <div><img class="thumbnail img-circle wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/generalidades/avatar.png' ;?>" alt="" width="96" height="96" /></div><br />
 
@@ -160,7 +160,7 @@
 <section class="gms">
   <h2 style="text-align: center;">GRUPO MULTISECTORIAL</h2>
 
-  <div class="small-ruler"><div></div></div>
+  <!--<div class="small-ruler"><div></div></div>-->
 
   <p class="text-center text-dark">Organismo rector de la iniciativa CoST El Salvador, integrado por academia, Sociedad Civil, Empresa privada y Gobierno.</p><br /><br />
 
@@ -187,7 +187,7 @@
     <div class="alianzas-a text-center"><div class="container">
       <h3>ALIANZAS ESTRATÉGICAS</h3>
 
-      <div class="small-ruler"><div></div></div>
+      <!--<div class="small-ruler"><div></div></div>-->
 
       <p>Alianzas para el fortalecimiento de la transparencia en la infraestructura pública de El Salvador.</p><br />
 
@@ -197,7 +197,7 @@
     <div class="alianzas-b text-center"><div class="container">
       <!--<h3>COMPROMETIDOS CON</h3>-->
 
-      <div class="small-ruler"><div></div></div>
+      <!--<div class="small-ruler"><div></div></div>-->
 
       <p></p><br />
     </div>
@@ -209,12 +209,13 @@
   <div class="container-fluid">
     <div class="col-xs-1 col-md-6">
       <?php get_template_part( 'templates/formulario', 'contacto' );?>
-    <!--  <?php $recent = new WP_Query("page_id=248"); while($recent->have_posts()) : $recent->the_post();?>
-       <h3><?php the_title(); ?></h3>
-       <?php the_content(); ?>
-      <?php endwhile; ?>-->
 
-
+      <div class="">
+         <?php $recent = new WP_Query("page_id=259"); while($recent->have_posts()) : $recent->the_post();?>
+           <h3><?php the_title(); ?></h3>
+           <?php the_content(); ?>
+          <?php endwhile; ?>
+      </div>
     </div>
   </div>
 </section>

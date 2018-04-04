@@ -206,9 +206,9 @@
 </section>
 
 <section class="contacto bg-light">
-  <div class="container-fluid">
+  <div class="row">
     <div class="col-xs-1 col-md-6">
-      <?php get_template_part( 'templates/formulario', 'contacto' );?>
+      <div class="container"><?php get_template_part( 'templates/formulario', 'contacto' );?></div>
 
       <div class="">
          <?php $recent = new WP_Query("page_id=259"); while($recent->have_posts()) : $recent->the_post();?>
@@ -216,6 +216,10 @@
            <?php the_content(); ?>
           <?php endwhile; ?>
       </div>
+    </div>
+
+    <div class="col-xs-1 col-md-3">
+      <?php get_template_part( 'templates/formulario', 'suscribe' );?>
     </div>
   </div>
 </section>

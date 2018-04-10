@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="gms-hero hero">
+<div class="gms-hero hero max-bg-img-width">
   <div class="contenido-hero">
     <h2><b>GRUPO</b> MULTISECTORIAL</h2>
 

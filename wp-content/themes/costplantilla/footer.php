@@ -1,5 +1,9 @@
 
-<footer>
+<footer><div class="footer-map max-bg-img-width">
+  <center><div class="COsTNivelMundial">
+    <h3>CoST A NIVEL MUNDIAL</h3>
+  </div></center>
+
   <div class="direccion">
     <p><span class="fa fa-map-marker"></span>&nbsp;Calle Arce y 19 Avenida sur, No. 1045, San Salvador, El Salvador</p>
   </div>
@@ -26,10 +30,8 @@
     <a href="http://instagram.com" class="cost-social-link"><span class="fa fa-instagram text-dark"></span></a>
   </div>
 
-  <div class="COsTNivelMundial">
-    <h3>CoST A NIVEL MUNDIAL</h3>
-  </div>
-</footer>
+  
+</div></footer>
 
 <div class="copyright text-danger text-center">
   <small>© COPYRIGHT 2018 CREADO POR SECRETARIADO GENERAL</small>

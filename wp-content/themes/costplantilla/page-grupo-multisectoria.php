@@ -4,15 +4,26 @@
   <div class="contenido-hero">
     <h2><b>GRUPO</b> MULTISECTORIAL</h2>
 
-    <p class="text-justified">CoST es liderado por un Grupo Multisectorial (MSG, por sus siglas en inglés, Multi- Stakeholder Group) que reúne a diferentes actores de la sociedad en cada país, con la función de tomar decisiones sobre la estrategia del Programa. En El Salvador Las acciones del programa se ejecutan bajo el liderazgo de un Grupo Multisectorial conformado por diferentes sectores como: sector público, privado, sociedad civil y académico. La representación de cada sector se conforma por: </p>
+    <p class="text-justified">CoST es liderado por un Grupo Multisectorial (MSG, por sus siglas en inglés, Multi- Stakeholder Group) que reúne a diferentes actores de la sociedad en cada país, con la función de tomar decisiones sobre la estrategia del Programa.  En El Salvador el MSG está conformado por diferentes actores: sector público, privado, sociedad civil y académico. La representación de cada sector se conforma por.</p>
   </div>
 </div>
 
 <section class="objetivo">
-  <div class="obj-desc">
+  <!--<div class="obj-desc">
     <h1 class=""><b><span class="text-dark">OBJETIVO DEL</span><br /></b><span class="text-primary">PROGRAMA</span></h1>
     <br />
     <p class="text-justified">Es incrementar el valor de la infraestructura pública en todo el mundo, al aumentar la transparencia con la que se ejecutan los proyectos, además de fomentar la demanda ciudadana de rendición de cuentas. </p>
+  </div>-->
+  <div class="obj-desc">
+    <h1 class=""><b><span class="text-dark">IMPORTANCIA DEL MSG:</span><br /></b><span class="text-primary">EN CoST</span></h1>
+    <br />
+    <div class="seccion-lista importancia text-justified">
+      <ul class="text-justified">
+        <li>La apropiación y Liderazgo del país, estableciendo estándares para el Programa Nacional. </li>
+        <li>Ofrece un espacio compartido y neutral para el diálogo.</li>
+        <li>Proporciona legitimada, contrayendo confianza y capital social.</li>
+      </ul>
+    </div>
   </div>
 
   <div class="obj-secciones text-justified">

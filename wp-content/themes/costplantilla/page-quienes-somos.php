@@ -19,7 +19,7 @@
     <h2 class="text-center"><b>HISTORIA</b></h2>
   </div>
 
-  <div class="small-ruler"><div></div></div>
+  <!--<div class="small-ruler"><div></div></div>-->
 
   <br />
 
@@ -33,25 +33,28 @@
         <p class="">Nace para mejorar la transparencia y la rendición de cuentas en la ejecución de proyectos de construcción en el sector público.</p>
       </div>
       <div class="">
-        <p class="small-text">El programa, surgió en 2007 el Reino Unido impulsada por el Departamento de Desarrollo Internacional como parte de una serie de iniciativas de transparencia enfocadas en sectores específicos de los Estados y caracterizadas por la adopción de modalidades de cooperación entre actores públicos, privados y sociedad civil. En 2008, se inició con una experiencia piloto en varios países del mundo, incluyendo Guatemala de la región centroamericana, logrando establecer un enfoque de dirección, procedimientos técnicos y de gobernabilidad. El lanzamiento oficial se realizó en 2012 y, desde entonces la metodología ha sido adoptada por 17 países que se adhieren formalmente al programa.</p>
+        <p class="">El programa, surgió en 2007 el Reino Unido impulsada por el Departamento de Desarrollo Internacional como parte de una serie de iniciativas de transparencia enfocadas en sectores específicos de los Estados y caracterizadas por la adopción de modalidades de cooperación entre actores públicos, privados y sociedad civil. En 2008, se inició con una experiencia piloto en varios países del mundo, incluyendo Guatemala de la región centroamericana, logrando establecer un enfoque de dirección, procedimientos técnicos y de gobernabilidad. El lanzamiento oficial se realizó en 2012 y, desde entonces la metodología ha sido adoptada por 17 países que se adhieren formalmente al programa.</p>
       </div>
     </div>
   </div>
 
-  <div class="hist-block text-justified">
-    <div class="hist-text">
+  <div class="text-justified">
+    <div class="">
       <div class="">
         <p class="">La experiencia de CoST en Guatemala motivó al Ministro de Obras Públicas, Transporte, y de Vivienda y Desarrollo Urbano de El Salvador, Señor Gerson Martínez, a establecer contacto con el Secretariado Internacional de CoST (IS, por sus siglas en inglés, International Secretariat).</p>
       </div>
       <div class="">
-        <p class="small-text">Iniciando en marzo de 2013 el proceso de adhesión a la iniciativa. En mayo de 2013, se suscribió un Memorando de Entendimiento con el IS de CoST, para formalizar el establecimiento del Programa en el país.</p>
+        <p class="">Iniciando en marzo de 2013 el proceso de adhesión a la iniciativa. En mayo de 2013, se suscribió un Memorando de Entendimiento con el IS de CoST, para formalizar el establecimiento del Programa en el país.</p>
       </div>
     </div>
 
-    <img src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/imag02.png' ; ?>" alt="" />
+    <!--<img src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/imag02.png' ; ?>" alt="" />-->
   </div>
 </section>
-
+<section>
+  <h2 class="text-center"><b>ORGANIGRAMA</b></h2><br />
+  <center><img style="width: 100%;" src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/' ; ?>" alt="" /></center><br />
+</section>
 <br />
 
 <section class="procs">
@@ -68,7 +71,7 @@
         <h3>Divulgación</h3>
       </div>
       <div class="card-desc">
-        <p class="rojo">El enfoque de CoST para el abordaje de la transparencia en el sector de la construcción pública, consiste en primer lugar en reunir a los actores de los diferentes sectores involucrados en un </p>
+        <p class="rojo">Proceso mediante el cual, CoST realiza una exigencia formal a las instituciones para que divulguen la información sobre los proyectos que construyen.</p>
       </div>
       <div class="card-link">
         <a href="/cost_wp/index.php/divulgacion/"><img class="card-link-img" src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/iconomas.png' ; ?>" alt="" /></a>
@@ -83,7 +86,7 @@
         <h3>Aseguramiento</h3>
       </div>
       <div class="card-desc">
-        <p class="rojo">Posteriormente, la iniciativa CoST El Salvador nombrará a una comisión de profesionales en la rama de la construcción con su experiencia y siguiendo los indicadores internacionales de CoST </p>
+        <p class="rojo">Proceso diseñado para mejorar la calidad de la información divulgada por las instituciones. CoST supervisa técnicamente que las instituciones estén divulgando la información producida sobre los proyectos, esta información se valida y se traduce a un lenguaje sencillo.</p>
       </div>
       <div class="card-link">
         <a href="/cost_wp/index.php/aseguramiento/"><img class="card-link-img" src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/iconomas.png' ; ?>" alt="" /></a>
@@ -118,7 +121,7 @@
   <div class="lema-block text-center bg-success">
       <br /><h2 text-center>Nuestro Lema:</h2>
 
-      <p class="lema-text">Incrementar el valor del dinero invertido en la infraestructura pública al incrementar la transparencia con la que se entregan los proyectos de construcción.</p>
+      <p class="lema-text">Implica fortalecer las capacidades y facilitar información comprensible para que la ciudadanía pueda exigir cuentas a las instituciones, con el fin de avanzar en los indicadores de la transparencia.</p>
     </div>
 </section>
 

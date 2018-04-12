@@ -36,8 +36,8 @@
 
       <div class="seccion-lista text-justified">
         <ul class="text-justified">
-          <li>Ministerio de Obras Públicas, Transporte y de Vivienda y Desarrollo Urbano, MOPTVDU </li>
-          <li>Fondo de Conservación Vial, FOVIAL</li>
+          <li>Ministerio de Obras Públicas, Transporte y de Vivienda y Desarrollo Urbano, <a href="http://www.mop.gob.sv/" class="no-text-transform">MOPTVDU </a> </li>
+          <li>Fondo de Conservación Vial, <a href="http://fovial.com/" class="no-text-transform">FOVIAL</a></li>
         </ul>
       </div>
     </div>
@@ -51,8 +51,8 @@
 
       <div class="seccion-lista">
         <ul class="text-justified">
-          <li>Cámara Salvadoreña de la Industria de la Construcción, CASALCO</li>
-          <li>Colegio de Arquitectos de El Salvador, CADES</li>
+          <li>Cámara Salvadoreña de la Industria de la Construcción, <a href="http://www.casalco.org.sv/" class="no-text-transform">CASALCO</a></li>
+          <li>Colegio de Arquitectos de El Salvador, <a href="http://cades.com.sv/" class="no-text-transform">CADES</a></li>
         </ul>
       </div>
     </div>
@@ -66,8 +66,8 @@
 
       <div class="seccion-lista">
         <ul class="a">
-          <li>Iniciativa Social para la democracia, ISD</li>
-          <li>Sistema de Asesoría y Capacitación para el Desarrollo Local, SACDEL</li>
+          <li>Iniciativa Social para la democracia, <a href="http://www.isd.org.sv/" class="no-text-transform">ISD</a></li>
+          <li>Sistema de Asesoría y Capacitación para el Desarrollo Local, <a href="http://sacdel.org.sv/" class="no-text-transform">SACDEL</a></li>
 
         </ul>
       </div>
@@ -82,9 +82,9 @@
 
       <div class="seccion-lista">
         <ul>
-          <li>Universidad de El Salvador, UES</li>
-          <li>Universidad Tecnológica de El Salvador, UTEC</li>
-          <li>Universidad Politécnica de El Salvador, UES</li>
+          <li>Universidad de El Salvador, <a href="http://www.ues.edu.sv/" class="no-text-transform">UES</a></li>
+          <li>Universidad Tecnológica de El Salvador, <a href="http://www.utec.edu.sv/" class="no-text-transform">UTEC</a></li>
+          <li>Universidad Politécnica de El Salvador, <a href="http://www.upes.edu.sv/" class="no-text-transform">UPES</a></li>
         </ul>
       </div>
     </div>

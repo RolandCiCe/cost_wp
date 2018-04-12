@@ -49,8 +49,6 @@
                 <a class="nav-link" href="<?php echo get_home_url().'/index.php/grupo-multisectoria' ?>">grupo multisectorial</a>
               </li>
 
-              <li class="nav-item"><a class="nav-link" href="/cost_wp/index.php/eventos/">Eventos</a></li>
-
               <li class="nav-item">
                 <div class="dropdown">
                   <a class="btn btn-default dropdown-toggle" href="#/" id="mnuPublicaciones" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -64,6 +62,8 @@
                   </ul>
                 </div>
               </li>
+
+              <li class="nav-item"><a class="nav-link" href="/cost_wp/index.php/eventos/">Eventos</a></li>
 
               <li class="nav-item">
                 <div class="dropdown">

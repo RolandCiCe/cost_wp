@@ -4,7 +4,7 @@
     <div class="evento-img">
       <?php the_post_thumbnail('full'); ?>
     </div> <br />
-
+    <a href="/cost_wp/index.php/eventos/" class="no-text-transform">ANTERIOR</a>
     <div class="container-fluid">
       <span class="date"><span class="im im-calendar text-primary"></span> <?php echo the_time('d M.y'); ?></span> <br /><br />
 

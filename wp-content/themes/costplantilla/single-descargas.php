@@ -6,7 +6,7 @@
           <?php // the_title('<h1>','</h1>'); ?>
         </div>
       </div>
-
+      <a href="/cost_wp/index.php/descargas/" class="no-text-transform">ANTERIOR</a>
     <div class="principal contenedor-pdf">
       <?php the_content(); ?>
     </div>

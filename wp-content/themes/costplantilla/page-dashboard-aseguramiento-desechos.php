@@ -2,7 +2,7 @@
 <div class="contenido-hero single-header aseg aseg-desechos">
     <h1>INFRAESTRUCTURA DE MANEJO DE DESHECHOS SÓLIDOS</h1>
 </div><br />
-
+<a href="/cost_wp/index.php/dashboard-aseguramiento/" class="no-text-transform">ANTERIOR</a>
 <section class="eventos">
   <div class="events-list container-fluid">
     <?php $i = 1; ?>
@@ -17,7 +17,7 @@
     {
       echo '<h3 class="text-center">Por el momento no hay información para mostrar.</h3>';
     }
-    
+
     while( $query->have_posts() ): $query->the_post();
 
      ?>

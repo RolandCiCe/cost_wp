@@ -6,8 +6,8 @@
           <?php //the_title('<h1>','</h1>'); ?>
         </div>
       </div>
-
-    <div class="principal contenedor-pdf">
+      <a href="/cost_wp/index.php/investigaciones/" class="no-text-transform">ANTERIOR</a>
+    <div class="principal contenedor-pdf" >
       <?php the_content(); ?>
     </div>
   <?php endwhile; ?>

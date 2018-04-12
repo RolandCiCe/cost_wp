@@ -4,7 +4,7 @@
       <div class="contenido-hero single-header single-aseg-title">
         <?php the_title('<h1>','</h1>'); ?>
       </div>
-
+<a href="/cost_wp/index.php/dashboard-aseguramiento-energetica/" class="no-text-transform">ANTERIOR</a>
       <div class="aseg-percentages">
         <div class="percent-item">
           <span class="val val-1"><?php the_field('porc_informacion_proactiva'); ?> %</span>
@@ -36,17 +36,17 @@
 
       <!-- <div>
         <div class="texto-hero">
-          
+
         </div>
-        
+
         <div class="">
           <div class="">
             <p><?php //the_field('categoria_proyecto'); ?> </p>
           </div>
         </div>
-        
+
       </div> -->
-    
+
   <?php endwhile; ?>
 
 <?php get_footer();?>

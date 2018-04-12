@@ -15,11 +15,23 @@
   <body <?php body_class(); ?> >
     <div class="">
       <header>
-        <nav class="navbar navbar-expand-lg navegacion">
-
-          <a class="navbar-brand" href="#">
+        <div class="pre-nav">
+          <a class="" href="#">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo_cost@2x.jpg" class="img-responsive" width="171" height="44">
           </a>
+
+          <div class="search-block">
+            <?php $recent = new WP_Query("page_id=289"); while($recent->have_posts()) : $recent->the_post();?>            
+              <?php the_content(); ?>
+             <?php endwhile; ?>
+          </div>
+        </div>
+
+
+
+        <nav class="navbar navbar-expand-lg navegacion">
+
+
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#costNavbar" aria-controls="costNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="im im-menu"></span>
@@ -39,6 +51,8 @@
                 <a class="nav-link" href="<?php echo get_home_url().'/index.php/grupo-multisectoria' ?>">grupo multisectorial</a>
               </li>
 
+              <li class="nav-item"><a class="nav-link" href="/cost_wp/index.php/eventos/">Eventos</a></li>
+
               <li class="nav-item">
                 <div class="dropdown">
                   <a class="btn btn-default dropdown-toggle" href="#/" id="mnuPublicaciones" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -49,7 +63,6 @@
                     <li><a href="/cost_wp/index.php/investigaciones/">Investigaciones</a></li>
                     <li><a href="/cost_wp/index.php/descargas/">Descargas</a></li>
                     <li><a href="/cost_wp/index.php/informes/">Informes</a></li>
-                    <li><a href="/cost_wp/index.php/eventos/">Eventos</a></li>
                   </ul>
                 </div>
               </li>

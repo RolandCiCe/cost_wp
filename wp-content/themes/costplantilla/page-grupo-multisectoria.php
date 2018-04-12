@@ -17,7 +17,7 @@
   <div class="obj-desc">
     <h1 class=""><b><span class="text-dark">IMPORTANCIA DEL MSG:</span><br /></b><span class="text-primary">EN CoST</span></h1>
     <br />
-    <div class="seccion-lista text-justified">
+    <div class="seccion-lista importancia text-justified">
       <ul class="text-justified">
         <li>La apropiación y Liderazgo del país, estableciendo estándares para el Programa Nacional. </li>
         <li>Ofrece un espacio compartido y neutral para el diálogo.</li>

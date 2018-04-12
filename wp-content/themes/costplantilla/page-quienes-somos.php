@@ -39,7 +39,7 @@
   </div>
 
   <div class="text-justified">
-    <div class="hist-text">
+    <div class="">
       <div class="">
         <p class="">La experiencia de CoST en Guatemala motivó al Ministro de Obras Públicas, Transporte, y de Vivienda y Desarrollo Urbano de El Salvador, Señor Gerson Martínez, a establecer contacto con el Secretariado Internacional de CoST (IS, por sus siglas en inglés, International Secretariat).</p>
       </div>
@@ -52,8 +52,8 @@
   </div>
 </section>
 <section>
-  <h2 class="text-center"><b>ORGANIGRAMA</b></h2>
-  <img src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/' ; ?>" alt="" />
+  <h2 class="text-center"><b>ORGANIGRAMA</b></h2><br />
+  <center><img style="width: 100%;" src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/' ; ?>" alt="" /></center><br />
 </section>
 <br />
 

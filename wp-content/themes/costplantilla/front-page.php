@@ -127,7 +127,7 @@
 
 <br />
 
-<section class="historias-exito">
+<section class="historias-exito max-bg-img-width">
   <div class="text-center">
       <!--<h2>Historias de Éxito:</h2><br />
 
@@ -191,7 +191,11 @@
 
       <p>Alianzas para el fortalecimiento de la transparencia en la infraestructura pública de El Salvador.</p><br />
 
+<<<<<<< HEAD
       <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosaliest/baner_logos.jpg' ;?>" />
+=======
+      <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosaliest/iaip@2x.jpg' ;?>" />
+>>>>>>> origin/rolando
     </div></div>
 
     <div class="alianzas-b text-center"><div class="container">

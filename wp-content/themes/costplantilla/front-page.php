@@ -191,7 +191,7 @@
 
       <p>Alianzas para el fortalecimiento de la transparencia en la infraestructura pública de El Salvador.</p><br />
 
-      <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosaliest/iaip@2x.png' ;?>" />
+      <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosaliest/baner_logos.jpg' ;?>" />
     </div></div>
 
     <div class="alianzas-b text-center"><div class="container">
@@ -209,17 +209,17 @@
   <div class="row">
     <div class="col-xs-1 col-md-6">
       <div class="container"><?php get_template_part( 'templates/formulario', 'contacto' );?></div>
-
-      <div class="">
-         <?php $recent = new WP_Query("page_id=259"); while($recent->have_posts()) : $recent->the_post();?>
-           <h3><?php the_title(); ?></h3>
-           <?php the_content(); ?>
-          <?php endwhile; ?>
-      </div>
     </div>
 
-    <div class="col-xs-1 col-md-3">
-      <?php get_template_part( 'templates/formulario', 'suscribe' );?>
+    <div class="col-xs-1 col-md-6">
+      <!--<?php get_template_part( 'templates/formulario', 'suscribe' );?> -->
+      <?php $recent = new WP_Query("page_id=259"); while($recent->have_posts()) : $recent->the_post();?>
+        <h2 class="text-light"><?php the_title(); ?></h2>
+        <p></p>
+        <p >Si quieres recibir en tu correo electrónico las últimas novedades que vaya publicando CoST El Salvador, favor escribe tu email.
+</p>
+        <p><?php the_content(); ?></p>
+       <?php endwhile; ?>
     </div>
   </div>
 </section>

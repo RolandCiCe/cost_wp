@@ -191,7 +191,6 @@
 
       <p>Alianzas para el fortalecimiento de la transparencia en la infraestructura pública de El Salvador.</p><br />
 
-
       <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosaliest/iaip@2x.jpg' ;?>" />
     </div></div>
 
@@ -217,7 +216,7 @@
       <?php $recent = new WP_Query("page_id=259"); while($recent->have_posts()) : $recent->the_post();?>
         <h2 class="text-light"><?php the_title(); ?></h2>
         <p></p>
-        <p >Si quieres recibir en tu correo electrónico las últimas novedades que vaya publicando CoST El Salvador, favor escribe tu email.
+        <p class="text-light">Si quieres recibir en tu correo electrónico las últimas novedades que vaya publicando CoST El Salvador, favor escribe tu email.
 </p>
         <p><?php the_content(); ?></p>
        <?php endwhile; ?>

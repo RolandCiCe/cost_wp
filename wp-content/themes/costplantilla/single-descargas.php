@@ -5,8 +5,8 @@
         <div class="texto-hero">
           <?php // the_title('<h1>','</h1>'); ?>
         </div>
-      </div>
-      <a href="/cost_wp/index.php/descargas/" class="no-text-transform">ANTERIOR</a>
+      </div><br />
+<a href="#/" class="no-text-transform" onclick="window.history.back();"><span class="fa fa-arrow-left"></span> Volver a página anterior</a>
     <div class="principal contenedor-pdf">
       <?php the_content(); ?>
     </div>

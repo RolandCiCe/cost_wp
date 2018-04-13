@@ -2,7 +2,7 @@
 <div class="contenido-hero single-header aseg aseg-desechos">
     <h1>INFRAESTRUCTURA DE MANEJO DE DESHECHOS SÓLIDOS</h1>
 </div><br />
-<a href="/cost_wp/index.php/dashboard-aseguramiento/" class="no-text-transform">ANTERIOR</a>
+<a href="#/" class="no-text-transform" onclick="window.history.back();"><span class="fa fa-arrow-left"></span> Volver a página anterior</a>
 <section class="eventos">
   <div class="events-list container-fluid">
     <?php $i = 1; ?>

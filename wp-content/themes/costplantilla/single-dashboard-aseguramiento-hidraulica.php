@@ -3,8 +3,8 @@
   <?php while(have_posts()): the_post(); ?>
       <div class="contenido-hero single-header single-aseg-title">
         <?php the_title('<h1>','</h1>'); ?>
-      </div>
-        <a href="/cost_wp/index.php/dashboard-aseguramiento-hidraulica/" class="no-text-transform">ANTERIOR</a>
+      </div><br />
+<a href="#/" class="no-text-transform" onclick="window.history.back();"><span class="fa fa-arrow-left"></span> Volver a página anterior</a>
       <div class="aseg-percentages">
         <div class="percent-item">
           <span class="val val-1"><?php the_field('porc_informacion_proactiva'); ?> %</span>

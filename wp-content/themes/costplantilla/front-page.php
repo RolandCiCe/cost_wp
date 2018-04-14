@@ -92,8 +92,8 @@
               </p>
             </div>
 
-            <div class="contenido-entrada">
-              <?php the_excerpt(); ?>
+            <div class="contenido-entrada text-justified">
+              <?php echo excerpt(25); ?>
               <div class="read-more-link"><a class="text-primary event-permalink" href="<?php the_permalink(); ?>">Leer más...</a></div>
             </div>
           </header>
@@ -213,7 +213,7 @@
 
     <div class="col-xs-1 col-md-6">
       <!--<?php get_template_part( 'templates/formulario', 'suscribe' );?> -->
-      <?php $recent = new WP_Query("page_id=259"); while($recent->have_posts()) : $recent->the_post();?>
+      <?php $recent = new WP_Query("page_id=296"); while($recent->have_posts()) : $recent->the_post();?>
         <h2 class="text-light"><?php the_title(); ?></h2>
         <p></p>
         <p class="text-light">Si quieres recibir en tu correo electrónico las últimas novedades que vaya publicando CoST El Salvador, favor escribe tu email.

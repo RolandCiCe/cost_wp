@@ -50,8 +50,16 @@
               </p>
             </div>
 
-            <div class="contenido-entrada">
-              <!--<?php the_excerpt(); ?>-->
+            <div class="contenido-entrada text-justified">
+              <?php echo excerpt(25); ?>
+              <?php
+                $faseproyecto = get_post_meta($post->ID, 'categoria_proyecto', true);
+                $cadena = explode(" ", $faseproyecto);
+                $texto = $cadena[0];
+                $numero = $cadena[1];
+              ?>
+              <span> <?php echo $texto ;?></span>
+              <span> <?php echo $numero ;?></span>
               <div class="read-more-link"><a class="text-primary event-permalink" href="<?php the_permalink(); ?>">Leer más...</a></div>
             </div>
           </header>

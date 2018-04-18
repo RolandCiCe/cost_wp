@@ -168,14 +168,14 @@
     <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 47@2x.png' ;?>" />
     <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 48@2x.png' ;?>" />
     <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 49@2x.png' ;?>" />
-    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/cades.png' ;?>" />
+    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/cades3.png' ;?>" />
   </div>
   <br />
   <div class="gms-row">
     <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 51@2x.png' ;?>" />
     <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 52@2x.png' ;?>" />
     <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 53@2x.png' ;?>" />
-    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/sacdel.png' ;?>" />
+    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/sacdel2.png' ;?>" />
   </div>
 </section>
 
@@ -191,7 +191,7 @@
 
       <p>Alianzas para el fortalecimiento de la transparencia en la infraestructura pública de El Salvador.</p><br />
 
-      <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosaliest/iaip@2x.jpg' ;?>" />
+      <img class="aligncenter size-full wp-image-126" src="<?php echo get_template_directory_uri().'/img/front-page/logosaliest/gif_logos.gif' ;?>" />
     </div></div>
 
     <div class="alianzas-b text-center"><div class="container">

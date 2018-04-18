@@ -10,6 +10,21 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri().'/css/font-awesome.min.css' ?>">
 
     <?php wp_head(); ?>
+    <script>
+        (function() {
+          var cx = '008001883176470576403:953m6nuf9iu';
+          var gcse = document.createElement('script');
+          gcse.type = 'text/javascript';
+          gcse.async = true;
+          gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(gcse, s);
+        })();
+
+      window.onload = function(){
+      document.getElementById('gsc-i-id1').placeholder = '¿Qué información está buscando? ';
+      }
+  </script>
   </head>
 
   <body <?php body_class(); ?> >
@@ -21,7 +36,7 @@
           </a>
 
           <div class="search-block">
-            <?php $recent = new WP_Query("page_id=289"); while($recent->have_posts()) : $recent->the_post();?>            
+            <?php $recent = new WP_Query("page_id=289"); while($recent->have_posts()) : $recent->the_post();?>
               <?php the_content(); ?>
              <?php endwhile; ?>
           </div>

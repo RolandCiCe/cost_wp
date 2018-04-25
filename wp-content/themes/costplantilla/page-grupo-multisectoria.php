@@ -17,7 +17,7 @@
   <div class="obj-desc">
     <h1 class=""><b><span class="text-dark">IMPORTANCIA DEL MSG:</span><br /></b><span class="text-primary">EN CoST</span></h1>
     <br />
-    <div class="seccion-lista importancia text-justified">
+    <div class="importancia text-justified">
       <ul class="text-justified">
         <li>La apropiación y Liderazgo del país, estableciendo estándares para el Programa Nacional. </li>
         <li>Ofrece un espacio compartido y neutral para el diálogo.</li>
@@ -115,16 +115,16 @@
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/GMS/consejo.png' ;?>" alt="img01">
+        <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/GMS/consejo1.png' ;?>" alt="img01">
       </div>
 
       <div class="carousel-item">
-        <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/GMS/consejo.png' ;?>" alt="img02">
+        <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/GMS/consejo2.png' ;?>" alt="img02">
       </div>
 
-      <div class="carousel-item">
+    <!--  <div class="carousel-item">
         <img class="d-block w-100" src="<?php echo get_template_directory_uri().'/img/GMS/consejo.png' ;?>" alt="img03">
-      </div>
+      </div>-->
     </div>
   </div>
 </section>

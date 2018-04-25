@@ -25,12 +25,12 @@
   </div> -->
 
   <div>
-    <a href="http://facebook.com" class="cost-social-link"><span class="fa fa-facebook-square text-dark"></span></a>
-    <a href="http://twitter.com" class="cost-social-link"><span class="fa fa-twitter text-dark"></span></a>
-    <a href="http://instagram.com" class="cost-social-link"><span class="fa fa-instagram text-dark"></span></a>
+    <a href="https://www.facebook.com/Costsv/" class="cost-social-link"><span class="fa fa-facebook-square text-dark"></span></a>
+    <a href="https://twitter.com/CoSTsv" class="cost-social-link"><span class="fa fa-twitter text-dark"></span></a>
+    <a href="https://www.instagram.com/cost.sv/" class="cost-social-link"><span class="fa fa-instagram text-dark"></span></a>
   </div>
 
-  
+
 </div></footer>
 
 <div class="copyright text-danger text-center">

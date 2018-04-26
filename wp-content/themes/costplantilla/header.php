@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <title>CoST El Salvador</title>
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
     <meta name="CoST El Salvador" content="CoST El Salvador">
 
@@ -62,8 +62,21 @@
                 <a class="nav-link" href="<?php echo get_home_url().'/index.php/quienes-somos' ?>">quiénes somos</a>
               </li>
 
-              <li class="nav-item">
+              <!--<li class="nav-item">
                 <a class="nav-link" href="<?php echo get_home_url().'/index.php/grupo-multisectoria' ?>">grupo multisectorial</a>
+              </li>-->
+
+              <li class="nav-item">
+                <div class="dropdown">
+                  <a class="btn btn-default dropdown-toggle" href="#/" id="mnuPublicaciones" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    grupo multisectorial
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu text-center" aria-labelledby="mnuPublicaciones">
+                    <li><a href="/cost_wp/index.php/grupo-multisectoria/">Consejo directivo 2018 - 2019</a></li>
+                    <li><a href="/cost_wp/index.php/grupo-multisectorial-anterior/">Consejo directivo 2016 - 2018</a></li>
+                  </ul>
+                </div>
               </li>
 
               <li class="nav-item">
@@ -80,7 +93,20 @@
                 </div>
               </li>
 
-              <li class="nav-item"><a class="nav-link" href="/cost_wp/index.php/eventos/">Eventos</a></li>
+              <!--<li class="nav-item"><a class="nav-link" href="/cost_wp/index.php/eventos/">Eventos</a></li>-->
+              <li class="nav-item">
+                <div class="dropdown">
+                  <a class="btn btn-default dropdown-toggle" href="#/" id="mnuPublicaciones" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    EVENTOS
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu text-center" aria-labelledby="mnuPublicaciones">
+                    <li><a href="/cost_wp/index.php/eventos-presentaciones/">Presentaciones</a></li>
+                    <li><a href="/cost_wp/index.php/eventos-capacitaciones/">Capacitaciones</a></li>
+                    <li><a href="/cost_wp/index.php/eventos-charlas/">Charlas</a></li>
+                  </ul>
+                </div>
+              </li>
 
               <li class="nav-item">
                 <div class="dropdown">

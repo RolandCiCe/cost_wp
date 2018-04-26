@@ -38,13 +38,13 @@
     </div>
   </div>
 
-  <div class="text-justified">
+  <div class="hist-text2 text-justified">
     <div class="">
       <div class="">
-        <p class="">La experiencia de CoST en Guatemala motivó al Ministro de Obras Públicas, Transporte, y de Vivienda y Desarrollo Urbano de El Salvador, Señor Gerson Martínez, a establecer contacto con el Secretariado Internacional de CoST (IS, por sus siglas en inglés, International Secretariat).</p>
+        <p class="">La experiencia de CoST en Guatemala motivó al Ministro de Obras Públicas, Transporte, y de Vivienda y Desarrollo Urbano de El Salvador, Señor Gerson Martínez, a establecer contacto con el Secretariado Internacional de CoST (IS, por sus siglas en inglés, International Secretariat). Iniciando en marzo de 2013 el proceso de adhesión a la iniciativa. En mayo de 2013, se suscribió un Memorando de Entendimiento con el IS de CoST, para formalizar el establecimiento del Programa en el país.</p>
       </div>
       <div class="">
-        <p class="">Iniciando en marzo de 2013 el proceso de adhesión a la iniciativa. En mayo de 2013, se suscribió un Memorando de Entendimiento con el IS de CoST, para formalizar el establecimiento del Programa en el país.</p>
+        <p class="text-justified"></p>
       </div>
     </div>
 
@@ -52,7 +52,7 @@
   </div>
 </section>
 <section>
-  <h2 class="text-center"><b>ORGANIGRAMA</b></h2><br />
+  <!--<h2 class="text-center"><b>ORGANIGRAMA</b></h2>--><br />
   <center><img style="width: 100%;" src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/' ; ?>" alt="" /></center><br />
 </section>
 <br />
@@ -102,7 +102,8 @@
         <h3>Demanda Ciudadana de Rendición de Cuentas</h3>
       </div>
       <div class="card-desc">
-        <p class="rojo">Como un tercer paso, CoST El Salvador divulgará la información, utilizando diversos medios, con el fin de que la transparencia en los proyectos de construcción de la obra </p>
+        <p class="rojo">Implica fortalecer las capacidades y facilitar información comprensible para que la ciudadanía pueda exigir cuentas a las instituciones, con el fin de avanzar en los indicadores de transparencia.
+</p>
       </div>
       <div class="card-link">
         <a href="/cost_wp/index.php/demanda-ciudadana/"><img class="card-link-img" src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/iconomas.png' ; ?>" alt="" /></a>

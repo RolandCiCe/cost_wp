@@ -15,7 +15,10 @@ wp_register_style( 'normalize', get_template_directory_uri().'/css/normalize.css
 wp_register_style( 'fontawesome', get_template_directory_uri().'/css/font-awesome.min.css',array('normalize'),'4.7.0');
 wp_register_style( 'bootstrap', get_template_directory_uri().'/css/bootstrap.min.css', array('normalize','fontawesome'),'4.0.0');
 //wp_register_style( 'style', get_template_directory_uri().'/style.css',array('normalize','fontawesome','bootstrap'),'1.0');
-
+// Cargar el css de IE 9
+//wp_enqueue_style( 'style-ie11', get_template_directory_uri(). "/ie11.css",array('normalize','fontawesome','bootstrap'),'1.0' );
+// Añadir el condicional
+//wp_style_add_data( 'style-ie11', 'conditional', 'lt IE 11' );
 
 //Llamando estilos
 wp_enqueue_style( 'normalize');
@@ -81,4 +84,17 @@ function excerpt($limit) {
   }
   $excerpt = preg_replace('`\[[^\]]*\]`','',$excerpt);
   return $excerpt;
-}
+}/*
+add_action( 'wp_enqueue_scripts', function() {
+
+  // Cargar el css de IE 9
+  wp_enqueue_style( 'style-ie11', get_stylesheet_directory_uri() . "/ie11.css" );
+  // Añadir el condicional
+  wp_style_add_data( 'style-ie11', 'conditional', 'lt IE 11' );
+
+  // Cargar el JavaScript de IE 9
+  wp_enqueue_script( 'js-ie11', get_stylesheet_directory_uri() . "/ie11.js" );
+  // Añadir el condicional
+  wp_script_add_data( 'js-ie11', 'conditional', 'lt IE 11' );
+
+} );*/

@@ -21,7 +21,7 @@
         </div>
       </div>
 
-      <div class="aseg-img">
+      <div class="container aseg-img">
         <?php
             the_post_thumbnail();
         ?>

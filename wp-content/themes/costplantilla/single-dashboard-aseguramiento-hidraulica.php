@@ -20,8 +20,8 @@
         </div>
       </div>
 
-      <div class="aseg-img">
-        <?php
+      <div class="container aseg-img">
+        <?phpcontainer 
             the_post_thumbnail();
         ?>
       </div>

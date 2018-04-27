@@ -22,7 +22,7 @@
       <div class="max-bg-img-width">
 
 
-      <div class="aseg-img">
+      <div class="container aseg-img">
         <?php
             the_post_thumbnail();
         ?>

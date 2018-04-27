@@ -3,7 +3,7 @@
     <h1>INFRAESTRUCTURA DE MANEJO DE DESHECHOS SÓLIDOS</h1>
 </div><br />
 <a href="#/" class="no-text-transform" onclick="window.history.back();"><span class="fa fa-arrow-left"></span> Volver a página anterior</a>
-<section class="dashboard-items">
+<section class="events">
   <div class="dashboard-list container-fluid">
     <?php $i = 1; ?>
     <?php
@@ -21,7 +21,7 @@
     while( $query->have_posts() ): $query->the_post();
 
      ?>
-      <article class="entrada-dashboard entrada-<?php echo $i; ?>">
+      <article class="entrada-dashboard-page entrada-<?php echo $i; ?>">
           <div class="dashboard-image">
             <?php
               if ( has_post_thumbnail(get_the_ID()) )
@@ -35,7 +35,7 @@
             ?>
           </div>
 
-          <div class="informacion-entrada clear">
+          <div class="informacion-item">
             <div class="titulo-entrada">
               <?php the_title( '<center><p class="dashboard-item-title"><b>', '</b></p></center>' ) ;?>
             </div>

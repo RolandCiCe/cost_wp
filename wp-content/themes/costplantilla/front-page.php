@@ -57,7 +57,7 @@
     <?php
      $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
     $query = new WP_Query( array(
-        'category_name' => 'eventos',
+        'category_name' => 'Eventos-Inicio',
         'paged' => $paged
     ) );
     while( $query->have_posts() ): $query->the_post();
@@ -161,23 +161,21 @@
   <h2 style="text-align: center;">GRUPO MULTISECTORIAL</h2>
 
   <!--<div class="small-ruler"><div></div></div>-->
-
   <p class="text-center text-dark">Organismo rector de la iniciativa CoST El Salvador, integrado por academia, Sociedad Civil, Empresa privada y Gobierno.</p><br /><br />
 
   <div class="gms-row">
-    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 47@2x.png' ;?>" />
-    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 48@2x.png' ;?>" />
-    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 49@2x.png' ;?>" />
-    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/cades3.png' ;?>" />
-    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/FOVIAL.png' ;?>" />
+    <a title="" href="http://sacdel.org.sv/"><img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/sacdel2.png' ;?>" /></a>
+    <a title="" href="http://www.isd.org.sv/"><img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 49@2x.png' ;?>" /></a>
+    <a title="" href="http://www.mop.gob.sv/"><img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 48@2x.png' ;?>" /></a>
+    <a title="" href="http://fovial.com/"><img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/FOVIAL.png' ;?>" /></a>
   </div>
   <br />
   <div class="gms-row">
-    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 51@2x.png' ;?>" />
-    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 52@2x.png' ;?>" />
-    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 53@2x.png' ;?>" />
-    <img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/sacdel2.png' ;?>" />
-
+    <a title="" href="http://www.casalco.org.sv/"><img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 47@2x.png' ;?>" /></a>
+    <a title="" href="http://cades.com.sv/"><img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/cades3.png' ;?>" /></a>
+    <a title="" href="http://www.ues.edu.sv/"><img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 51@2x.png' ;?>" /></a>
+    <a title="" href="http://www.utec.edu.sv/"><img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 52@2x.png' ;?>" /></a>
+    <a title="" href="http://www.upes.edu.sv/"><img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/Group 53@2x.png' ;?>" /></a>
   </div>
 </section>
 

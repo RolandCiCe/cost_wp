@@ -5,7 +5,7 @@
   </div></center>
 
   <div class="direccion">
-    <p><span class="fa fa-map-marker"></span>&nbsp;Calle Arce y 19 Avenida sur, No. 1045, San Salvador, El Salvador</p>
+    <a href="https://maps.google.com/maps?saddr=&daddr=Calle Arce y 19 Avenida sur, No. 1045, San Salvador, El Salvador&hl=en" class="link-direccion"><p><span class="fa fa-map-marker"></span>&nbsp;Calle Arce y 19 Avenida sur, No. 1045, San Salvador, El Salvador</p></a>
   </div>
   <div class="telefono">
     <p><span class="fa fa-phone"></span>&nbsp;+(503) 2275-1020</p>

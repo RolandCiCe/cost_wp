@@ -19,13 +19,15 @@
           <p>INFORMACIÓN NO DIVULGADA</p>
         </div>
       </div>
+      <div class="max-bg-img-width">
+
 
       <div class="aseg-img">
         <?php
             the_post_thumbnail();
         ?>
       </div>
-
+      </div>
       <div class="container aseg-content-container">
         <div class="container aseg-content">
           <h1 class="text-center"><?php the_field('categoria_proyecto'); ?></h1><br />

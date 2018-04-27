@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
   <?php while(have_posts()): the_post(); ?>
-      <div class="contenido-hero single-header single-aseg-title">
+      <div class="contenido-hero single-header single-aseg-title max-bg-img-width">
         <?php the_title('<h1>','</h1>'); ?>
       </div><br />
 <a href="#/" class="no-text-transform" onclick="window.history.back();"><span class="fa fa-arrow-left"></span> Volver a página anterior</a>

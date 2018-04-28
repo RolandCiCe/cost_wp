@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="contenido-hero single-header eventos">
+<div class="contenido-hero single-header presentaciones">
 </div><br />
 
 <section class="eventos">

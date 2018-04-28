@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="contenido-hero single-header investigaciones">
+<div class="contenido-hero single-header gsm-anterior">
 </div><br />
 <p></p>
 

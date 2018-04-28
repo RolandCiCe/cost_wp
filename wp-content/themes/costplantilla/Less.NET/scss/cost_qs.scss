@@ -1,0 +1,173 @@
+﻿.quienes {
+    color: white !important;
+    height: 550px;
+    padding: 20px 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: url('../img/quienes_somos/home_quienes_somos/quienes_somos.jpg');
+    background-size:100% 100%;
+    background-position:top left;
+}
+
+.quienes img {
+    width: 64px;
+    height: 64px;
+    margin:10px;
+}
+
+.quienes .quienes-text:before, .lema-text:before {
+    position: relative;
+    background-image: url(../img/quienes_somos/home_quienes_somos/quote001.png);
+    background-size: 64px 64px;
+    display: block;
+    width: 64px;
+    height: 64px;
+    content: "";
+    background-repeat: no-repeat;
+    top: 32px;
+    left: -80px;
+}
+
+.text-justified {
+    text-align: justify !important;
+}
+
+.quienes .quienes-text:after, .lema-text:after {
+    position: relative;
+    background-image: url(../img/quienes_somos/home_quienes_somos/quote002.png);
+    background-size: 64px 64px;
+    display: block;
+    width: 64px;
+    height: 64px;
+    content: "";
+    background-repeat: no-repeat;
+    bottom: 32px;
+    right: calc(-100% -30px);
+}
+
+.hist-block{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-content:flex-start;
+}
+
+.hist-block img{
+    width: 45%;
+    height: 300px;
+    padding-left: 10px;
+}
+
+.small-text{
+    font-size:85%;
+}
+
+.hist-text{
+    padding:10px;
+    width: 55%;
+}
+.hist-text2 {
+    padding: 10px;
+    width: 100%;
+}
+.lema {
+    height: 600px;
+    padding: 120px;
+    padding-top: 150px;
+    padding-bottom: 60px;
+    background-image: url(../img/quienes_somos/home_quienes_somos/imag_lema.png);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+
+.lema .lema-block {
+    color: white;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.lema-text:before {
+    position: relative;
+    background-image: url(../img/quienes_somos/home_quienes_somos/quote001.png);
+    background-size: 64px 64px;
+    display: block;
+    width: 64px;
+    height: 64px;
+    content: "";
+    background-repeat: no-repeat;
+    top: 32px;
+    left: -80px;
+}
+
+.lema-text:after {
+    position: relative;
+    background-image: url(../img/quienes_somos/home_quienes_somos/quote002.png);
+    background-size: 64px 64px;
+    display: block;
+    width: 64px;
+    height: 64px;
+    content: "";
+    background-repeat: no-repeat;
+    bottom: 32px;
+    right: calc(-100% -30px);
+}
+
+.procs {
+    padding: 40px;
+    background-image: url(../img/quienes_somos/home_quienes_somos/imag_proceso.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.procs .cards{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.procs .card{
+    background: white;
+    border: 1px solid $dark;
+    padding: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    width: 30%;
+    border-radius:0px;
+    color: $cost_black;
+    min-height: 400px;
+    font-size:85%;
+    align-content:space-around;
+}
+
+.card-link-img{
+    width: 32px;
+    height: 32px;
+}
+
+.card-img {
+    width: 48px;
+    height: 48px;
+    margin-bottom:5px;
+}
+
+.card-title{
+    height:75px;
+    font-size:85%;
+}
+
+.card-title h3 {
+    font-size: 1.5rem!important;
+}
+
+.card-desc {
+    height: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

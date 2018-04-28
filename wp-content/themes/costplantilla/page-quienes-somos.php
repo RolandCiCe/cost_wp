@@ -24,7 +24,7 @@
   <br />
 
   <div class="hist-block text-justified">
-    <img src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/imag01.png' ; ?>" alt="" />
+    <img src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/imag01.jpg' ; ?>" alt="" />
 
     <div class="hist-text">
       <h3 class="text-center text-primary"><b>CoST</b></h3>
@@ -122,7 +122,7 @@
   <div class="lema-block text-center bg-success">
       <br /><h2 text-center>Nuestro Lema:</h2>
 
-      <p class="lema-text">Implica fortalecer las capacidades y facilitar información comprensible para que la ciudadanía pueda exigir cuentas a las instituciones, con el fin de avanzar en los indicadores de la transparencia.</p>
+      <p class="lema-text">Incrementar el valor del dinero invertido en la infraestructura pública al incrementar la transparencia con la que se entregan los proyectos de construcción.</p>
     </div>
 </section>
 

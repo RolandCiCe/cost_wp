@@ -8,7 +8,9 @@
       <h2>Divulgacion</h2>
     </div> <br />
     <div class="">
-      <p class="rojo">El enfoque de CoST para el abordaje de la transparencia en el sector de la construcción pública, consiste en primer lugar en reunir a los actores de los diferentes sectores involucrados en un terreno neutral, mediante un mecanismo que les permita tomar decisiones conjuntas a través de un proceso democrático, compartiendo riesgo, responsabilidades y persiguiendo de manera conjunta los esfuerzos para mejorar la rentabilidad, la eficiencia y la eficacia en la ejecución de obras públicas. A este conjunto de sectores participando en la toma de decisiones se le llama Grupo Multisectorial. Con ello se permite tener un abordaje de varios sectores de la sociedad salvadoreña y multidisciplinario de la gestión de los proyectos de infraestructura pública, enriqueciendo las capacidades para poder evaluar las diferentes etapas y garantizar el interés general sobre el particular. </p>
+      <p class="rojo">La divulgación de la información, tiene como fin garantizar al público que el propósito, alcance, costos y ejecución de los proyectos de construcción se ha realizado de una forma transparente, y que los fondos obtenidos por medio del pago de sus impuestos se han administrado de manera acertada, generando la confianza de los usuarios en la institución encargada. </p>
+      <br />
+      <p class="rojo">La información de los proyectos debe ser divulgada de forma “proactiva”, es decir, que las Instituciones propietarias de proyectosdeben revelar toda la información de las diferentes etapas del proyecto; a través de un medio público abierto y accesible a todos los actores interesados y sin ser solicitada.</p>
     </div>
   </div>
 </section>

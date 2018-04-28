@@ -57,7 +57,7 @@ $query = new WP_Query( array(
                 </div>
 
                 <div class="contenido-entrada">
-                  <!--<?php the_excerpt(); ?>-->
+                  <?php echo excerpt(25); ?>
                   <div class="read-more-link"><a class="text-primary event-permalink" href="<?php the_permalink(); ?>">Leer más...</a></div>
                 </div>
               </header>

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="contenido-hero single-header investigaciones">
+<div class="contenido-hero single-header empleos-cv">
   </div>
   <section class="contacto bg-light">
     <div class="row row-centered">

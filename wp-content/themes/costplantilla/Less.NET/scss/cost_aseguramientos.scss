@@ -1,0 +1,162 @@
+﻿.single-header.aseg {
+    background: url('../img/aseguramiento/imag_aseguramiento.jpg');
+    color: white!important;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    text-transform:uppercase!important;
+    padding: 0px;
+    background-size: 100% 100%;
+}
+
+.simple-padding{
+    padding: 20px!important;
+}
+
+.aseg-links{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.aseg-links .aseg-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 96px !important;
+}
+
+.aseg-links .aseg-link .aseg-bullet {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 0 15px $dark;
+    padding: 5px !important;
+    background:$dark;
+}
+
+.aseg-links .aseg-link .aseg-bullet img {
+    width: 64px;
+    height: 64px;
+}
+
+.aseg-links .aseg-link span {
+    font-size:75%!important;
+    height:60px!important;
+    margin-top:4px;
+}
+/*
+.single-header.aseg-desechos {
+    background: url('../img/aseguramiento/desechos.png');
+}
+
+.single-header.aseg-energ {
+    background: url('../img/aseguramiento/energetica.png');
+}
+
+.single-header.aseg-edif {
+    background: url('../img/aseguramiento/edificacion.png');
+}
+
+.single-header.aseg-hidra {
+    background: url('../img/aseguramiento/hidraulica.png');
+}
+
+.single-header.aseg-telecom {
+    background: url('../img/aseguramiento/telecomunicaciones.png');
+}
+
+.single-header.aseg-trans {
+    background: url('../img/aseguramiento/transporte.png');
+}*/
+.single-header.buenas_practicas {
+    font-size: 37px !important;
+    background: url('../img/buenas_practicas/buenas_practicas.jpg');
+    padding: 10px !important;
+}
+
+.single-header.buenas_practicas *{
+    text-transform: none!important;
+}
+
+.single-aseg-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+    padding: 30px !important;
+    text-transform: uppercase !important;
+}
+
+.aseg-percentages{
+    padding:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.aseg-percentages .percent-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aseg-percentages .percent-item p {
+    font-weight: 600 !important;
+}
+
+.aseg-img img{
+    width:100%!important;
+    height: 400px!important;
+}
+
+    .aseg-percentages .val {
+        padding: 20px !important;
+        margin: 5px;
+        border-radius: 50% !important;
+        width: 128px;
+        height: 128px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600 !important;
+        font-size: 28px !important;
+    }
+
+    .aseg-percentages .val-1 {
+        border: 5px solid $primary;
+    }
+
+    .aseg-percentages .val-2 {
+        border: 5px solid $warning;
+    }
+
+    .aseg-percentages .val-3 {
+        border: 5px solid $secondary;
+    }
+
+.aseg-content {
+    /*position: relative;
+    top: -200px !important;*/
+    background: white;
+    padding: 35px;
+    box-shadow: 0px 0px 10px $gray-400;
+}
+
+.aseg-content h1{
+    text-transform:uppercase!important;
+}
+
+.aseg-content-container {
+    position: relative;
+    top: -100px !important;
+}

@@ -75,7 +75,7 @@
                   </a>
                   <ul class="dropdown-menu text-center" aria-labelledby="mnuPublicaciones">
                     <li><a href="/cost_wp/index.php/grupo-multisectoria/">grupo multisectorial</a></li>
-                    <li><a href="/cost_wp/index.php/grupo-multisectorial-actual/">Consejo directivo 2018 - 2019</a></li>
+                    <li><a href="/cost_wp/index.php/grupo-multisectorial-actual/">Consejo directivo 2018 - 2020</a></li>
                     <li><a href="/cost_wp/index.php/grupo-multisectorial-anterior/">Consejo directivo 2016 - 2018</a></li>
                   </ul>
                 </div>
@@ -90,7 +90,7 @@
                   <ul class="dropdown-menu text-center" aria-labelledby="mnuPublicaciones">
                     <li><a href="/cost_wp/index.php/investigaciones/">Investigaciones</a></li>
                     <li><a href="/cost_wp/index.php/descargas/">Descargas</a></li>
-                    <li><a href="/cost_wp/index.php/informes/">Informes</a></li>
+                    <li><a href="/cost_wp/index.php/informes/">Informes de Aseguramiento</a></li>
                   </ul>
                 </div>
               </li>

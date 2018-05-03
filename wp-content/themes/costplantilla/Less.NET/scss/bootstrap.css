@@ -6845,13 +6845,13 @@ article:hover {
   color: white !important; }
 
 .qs-titulo.aseguramiento {
-  background: url("../img/quienes_somos/aseguramiento/imag_aseguramiento.png"); }
+  background: url("../img/quienes_somos/aseguramiento/imag_aseguramiento.jpg"); }
 
 .qs-titulo.aseguramiento .qs-div {
   background: rgba(232, 170, 68, 0.8); }
 
 .qs-titulo.divulgacion {
-  background: url("../img/quienes_somos/divulgacion/imag_divulgacion.png"); }
+  background: url("../img/quienes_somos/divulgacion/imag_divulgacion.jpg"); }
 
 .qs-titulo.buenas-practicas {
   background: url("../img/buenas_practicas/imag_buenas_practicas.png"); }
@@ -6860,7 +6860,7 @@ article:hover {
   background: rgba(213, 63, 37, 0.8); }
 
 .qs-titulo.demanda {
-  background: url("../img/quienes_somos/demanda/imag_demanda.png"); }
+  background: url("../img/quienes_somos/demanda/imag_demanda.jpg"); }
 
 .qs-titulo.demanda .qs-div {
   background: rgba(98, 125, 127, 0.8); }

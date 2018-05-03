@@ -84,17 +84,17 @@ function excerpt($limit) {
   }
   $excerpt = preg_replace('`\[[^\]]*\]`','',$excerpt);
   return $excerpt;
-}/*
-add_action( 'wp_enqueue_scripts', function() {
+}
 
-  // Cargar el css de IE 9
-  wp_enqueue_style( 'style-ie11', get_stylesheet_directory_uri() . "/ie11.css" );
-  // Añadir el condicional
-  wp_style_add_data( 'style-ie11', 'conditional', 'lt IE 11' );
-
-  // Cargar el JavaScript de IE 9
-  wp_enqueue_script( 'js-ie11', get_stylesheet_directory_uri() . "/ie11.js" );
-  // Añadir el condicional
-  wp_script_add_data( 'js-ie11', 'conditional', 'lt IE 11' );
-
-} );*/
+//limitar cantidad de palabras en el titulo
+function title($limit) {
+  $title = explode(' ', get_the_title(), $limit);
+  if (count($title)>=$limit) {
+    array_pop($title);
+    $title = implode(" ",$title).'...';
+  } else {
+    $title = implode(" ",$title);
+  }
+  $title = preg_replace('`\[[^\]]*\]`','',$title);
+  return $title;
+}

@@ -153,7 +153,7 @@
   <div class="mivi-item col-xs-1 col-sm-1 col-md-6">
       <h2>Visión</h2>
 
-      <p>"Promover una cultura de transparencia y ética en los procesos de construcción de la obra pública divulgando información sistematizada que morive la auditoría social y la rendicion de cuentas."</p>
+      <p>"Promover una cultura de transparencia y ética en los procesos de construcción de la obra pública divulgando información sistematizada que motive la auditoría social y la rendicion de cuentas."</p>
   </div>
 </section>
 

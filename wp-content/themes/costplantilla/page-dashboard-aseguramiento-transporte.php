@@ -38,7 +38,8 @@
 
           <div class="informacion-item">
             <div class="titulo-entrada">
-              <?php the_title( '<center><p class="dashboard-item-title"><b>', '</b></p></center>' ) ;?>
+              <!--<?php the_title( '<center><p class="dashboard-item-title"><b>', '</b></p></center>' ) ;?> -->
+              <center><p class="dashboard-item-title"><b><?php echo title(20);  ?></b></p></center>
             </div>
 
             <div class="contenido-entrada text-justified">

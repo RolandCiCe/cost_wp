@@ -3,7 +3,9 @@
   <div class="single-header aseg text-justified simple-padding">
     <h1>¿Qué es el <b class="gotham-bold">aseguramiento</b>?</h1><br />
 
-    <p></p>
+    <p>Es el Proceso diseñado para mejorar la utilidad de la información que las Instituciones Públicas divulgan sobre proyectos de infraestructura pública.
+Verificando el nivel de divulgación de información que posee cada una de las instituciones seleccionadas referente a proyectos de infraestructura.
+</p>
   </div>
 
   <br />

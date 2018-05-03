@@ -37,11 +37,10 @@
       </div>
     </div>
   </div>
-
   <div class="hist-text2 text-justified">
     <div class="">
       <div class="">
-        <p class="">La experiencia de CoST en Guatemala motivó al Ministro de Obras Públicas, Transporte, y de Vivienda y Desarrollo Urbano de El Salvador, Señor Gerson Martínez, a establecer contacto con el Secretariado Internacional de CoST (IS, por sus siglas en inglés, International Secretariat). Iniciando en marzo de 2013 el proceso de adhesión a la iniciativa. En mayo de 2013, se suscribió un Memorando de Entendimiento con el IS de CoST, para formalizar el establecimiento del Programa en el país.</p>
+        <p class="">La experiencia de CoST en Guatemala motivó al Ex-Ministro de Obras Públicas, Transporte, y de Vivienda y Desarrollo Urbano de El Salvador, Señor Gerson Martínez, a establecer contacto con el Secretariado Internacional de CoST (IS, por sus siglas en inglés, International Secretariat). Iniciando en marzo de 2013 el proceso de adhesión a la iniciativa. En mayo de 2013, se suscribió un Memorando de Entendimiento con el IS de CoST, para formalizar el establecimiento del Programa en el país.</p>
       </div>
       <div class="">
         <p class="text-justified"></p>

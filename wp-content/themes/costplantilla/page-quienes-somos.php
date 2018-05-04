@@ -73,7 +73,7 @@
         <p class="rojo">Proceso mediante el cual, CoST realiza una exigencia formal a las instituciones para que divulguen la información sobre los proyectos que construyen.</p>
       </div>
       <div class="card-link">
-        <a href="/cost_wp/index.php/divulgacion/"><img class="card-link-img" src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/iconomas.png' ; ?>" alt="" /></a>
+        <a href="<?php echo get_home_url().'/index.php/divulgacion' ?>"><img class="card-link-img" src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/iconomas.png' ; ?>" alt="" /></a>
       </div>
     </div>
 
@@ -88,7 +88,7 @@
         <p class="rojo">Proceso diseñado para mejorar la calidad de la información divulgada por las instituciones. CoST supervisa técnicamente que las instituciones estén divulgando la información producida sobre los proyectos, esta información se valida y se traduce a un lenguaje sencillo.</p>
       </div>
       <div class="card-link">
-        <a href="/cost_wp/index.php/aseguramiento/"><img class="card-link-img" src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/iconomas.png' ; ?>" alt="" /></a>
+        <a href="<?php echo get_home_url().'/index.php/aseguramiento' ?>"><img class="card-link-img" src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/iconomas.png' ; ?>" alt="" /></a>
       </div>
 
     </div>
@@ -105,7 +105,7 @@
 </p>
       </div>
       <div class="card-link">
-        <a href="/cost_wp/index.php/demanda-ciudadana/"><img class="card-link-img" src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/iconomas.png' ; ?>" alt="" /></a>
+        <a href="<?php echo get_home_url().'/index.php/demanda-ciudadana' ?>"><img class="card-link-img" src="<?php echo get_template_directory_uri().'/img/quienes_somos/home_quienes_somos/iconomas.png' ; ?>" alt="" /></a>
       </div>
     </div>
   </div>

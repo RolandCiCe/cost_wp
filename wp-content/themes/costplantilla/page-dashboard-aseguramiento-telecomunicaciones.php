@@ -30,7 +30,7 @@
               }
               else
               {
-                echo "<div class='no-pic'></div>";
+                echo '<div class="no-pic">hola</div>';
               }
             ?>
           </div>

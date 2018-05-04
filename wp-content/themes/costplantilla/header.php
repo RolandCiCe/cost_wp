@@ -74,9 +74,9 @@
                     <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu text-center" aria-labelledby="mnuPublicaciones">
-                    <li><a href="/cost_wp/index.php/grupo-multisectoria/">grupo multisectorial</a></li>
-                    <li><a href="/cost_wp/index.php/grupo-multisectorial-actual/">Consejo directivo 2018 - 2020</a></li>
-                    <li><a href="/cost_wp/index.php/grupo-multisectorial-anterior/">Consejo directivo 2016 - 2018</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/grupo-multisectoria'?>">grupo multisectorial</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/grupo-multisectorial-actual'?>">Consejo directivo 2018 - 2020</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/grupo-multisectorial-anterior'?>">Consejo directivo 2016 - 2018</a></li>
                   </ul>
                 </div>
               </li>
@@ -88,9 +88,9 @@
                     <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu text-center" aria-labelledby="mnuPublicaciones">
-                    <li><a href="/cost_wp/index.php/investigaciones/">Investigaciones</a></li>
-                    <li><a href="/cost_wp/index.php/descargas/">Descargas</a></li>
-                    <li><a href="/cost_wp/index.php/informes/">Informes de Aseguramiento</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/investigaciones'?>">Investigaciones</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/descargas'?>">Descargas</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/informes'?>">Informes de Aseguramiento</a></li>
                   </ul>
                 </div>
               </li>
@@ -103,9 +103,9 @@
                     <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu text-center" aria-labelledby="mnuPublicaciones">
-                    <li><a href="/cost_wp/index.php/eventos-presentaciones/">Presentaciones</a></li>
-                    <li><a href="/cost_wp/index.php/eventos-capacitaciones/">Capacitaciones</a></li>
-                    <li><a href="/cost_wp/index.php/eventos-charlas/">Charlas</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/eventos-presentaciones'?>">Presentaciones</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/eventos-capacitaciones'?>">Capacitaciones</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/eventos-charlas'?>">Charlas</a></li>
                   </ul>
                 </div>
               </li>
@@ -117,8 +117,8 @@
                     <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu text-center" aria-labelledby="mnuRendicion">
-                    <li><a href="/cost_wp/index.php/planes-trabajo/">Planes de Trabajo</a></li>
-                    <li><a href="/cost_wp/index.php/proyectos-aprobados/">Proyectos Aprobados</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/planes-trabajo'?>">Planes de Trabajo</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/proyectos-aprobados'?>">Proyectos Aprobados</a></li>
                   </ul>
                 </div>
               </li>
@@ -129,8 +129,8 @@
                     <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu text-center" aria-labelledby="mnuRendicion">
-                    <li><a href="/cost_wp/index.php/empleos/">Listado de empleos</a></li>
-                    <li><a href="/cost_wp/index.php/contacto-cv/">Enviar Curriculum</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/empleos'?>">Listado de empleos</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/contacto-cv'?>">Enviar Curriculum</a></li>
                   </ul>
                 </div>
               </li>

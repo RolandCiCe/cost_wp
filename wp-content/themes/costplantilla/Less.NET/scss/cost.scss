@@ -48,6 +48,10 @@ a
     font-size: 90%;
 }
 
+.nav-item ul.dropdown-menu li a{
+    text-transform: none!important;
+}
+
 .no-text-transform {
     text-transform: none!important;
 }

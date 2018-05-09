@@ -6401,11 +6401,15 @@ article .event-image .item-hover {
   border: none; }
 
 article .event-image img {
-  width: 100% !important;
+  max-width: 100% !important;
   min-height: 50% !important;
   max-height: 50% !important;
   height: 50% !important;
-  border: none; }
+  width: auto !important;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
 
 article:hover .event-image .item-hover {
   opacity: 0.55; }

@@ -30,6 +30,8 @@ if (in_category('Investigaciones')) {
     include(TEMPLATEPATH . '/single-eventos-capacitaciones.php');
 } elseif (in_category('Presentaciones')) {
     include(TEMPLATEPATH . '/single-eventos-presentaciones.php');
+} elseif (in_category('Boletines')) {
+    include(TEMPLATEPATH . '/single-boletines.php');
 } else { // Sino, cargo otro single por defecto
     include(TEMPLATEPATH . '/single-default.php');
 }

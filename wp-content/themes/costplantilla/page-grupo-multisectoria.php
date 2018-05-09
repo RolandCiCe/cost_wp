@@ -36,7 +36,7 @@
 
       <div class="seccion-lista text-justified">
         <ul class="text-justified">
-          <li>Ministerio de Obras Públicas, Transporte y de Vivienda y Desarrollo Urbano, <a href="http://www.mop.gob.sv/" class="no-text-transform">MOPTVDU </a> </li>
+          <li>Ministerio de Obras Públicas, Transporte, Vivienda y Desarrollo Urbano, <a href="http://www.mop.gob.sv/" class="no-text-transform">MOPTVDU </a> </li>
           <li>Fondo de Conservación Vial, <a href="http://fovial.com/" class="no-text-transform">FOVIAL</a></li>
         </ul>
       </div>

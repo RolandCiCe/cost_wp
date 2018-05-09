@@ -2,12 +2,11 @@
 <section>
   <div class="single-header aseg text-justified simple-padding">
     <h1>¿Qué es el <b class="gotham-bold">aseguramiento</b>?</h1><br />
-
-    <p>Es el Proceso diseñado para mejorar la utilidad de la información que las Instituciones Públicas divulgan sobre proyectos de infraestructura pública.
+    <p style="text-transform: none !important;">Es el Proceso diseñado para mejorar la utilidad de la información que las Instituciones Públicas divulgan sobre proyectos de infraestructura pública.
 Verificando el nivel de divulgación de información que posee cada una de las instituciones seleccionadas referente a proyectos de infraestructura.
 </p>
-  </div>
 
+  </div>
   <br />
 
   <div class="simple-padding">
@@ -15,7 +14,7 @@ Verificando el nivel de divulgación de información que posee cada una de las i
 
     <div class="small-ruler"><div></div></div><br />
 
-    <img style="width: 100%!important;" src="<?php echo get_template_directory_uri().'/img/aseguramiento/barra_fases.png' ; ?>" alt="" />
+    <img style="width: 100%!important;" src="<?php echo get_template_directory_uri().'/img/aseguramiento/fases.jpg' ; ?>" alt="" />
   </div>
 
   <br />

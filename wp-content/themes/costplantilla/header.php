@@ -56,11 +56,11 @@
           <div class="collapse navbar-collapse gotham-bold" id="costNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="<?php echo get_home_url() ?>">inicio</a>
+                <a class="nav-link" href="<?php echo get_home_url() ?>">INICIO</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="<?php echo get_home_url().'/index.php/quienes-somos' ?>">quiénes somos</a>
+                <a class="nav-link" href="<?php echo get_home_url().'/index.php/quienes-somos' ?>">QUIÉNES SOMOS</a>
               </li>
 
               <!--<li class="nav-item">
@@ -70,11 +70,11 @@
               <li class="nav-item">
                 <div class="dropdown">
                   <a class="btn btn-default dropdown-toggle" href="#/" id="mnuPublicaciones" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    grupo multisectorial
+                    GRUPO MULTISECTORIAL
                     <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu text-center" aria-labelledby="mnuPublicaciones">
-                    <li><a href="<?php echo get_home_url().'/index.php/grupo-multisectoria'?>">grupo multisectorial</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/grupo-multisectoria'?>">Grupo multisectorial</a></li>
                     <li><a href="<?php echo get_home_url().'/index.php/grupo-multisectorial-actual'?>">Consejo directivo 2018 - 2020</a></li>
                     <li><a href="<?php echo get_home_url().'/index.php/grupo-multisectorial-anterior'?>">Consejo directivo 2016 - 2018</a></li>
                   </ul>
@@ -91,6 +91,7 @@
                     <li><a href="<?php echo get_home_url().'/index.php/investigaciones'?>">Investigaciones</a></li>
                     <li><a href="<?php echo get_home_url().'/index.php/descargas'?>">Descargas</a></li>
                     <li><a href="<?php echo get_home_url().'/index.php/informes'?>">Informes de Aseguramiento</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/boletines'?>">Boletines</a></li>
                   </ul>
                 </div>
               </li>
@@ -125,7 +126,7 @@
               <li class="nav-item">
                 <div class="dropdown">
                   <a class="btn btn-default dropdown-toggle" href="#/" id="mnuRendicion" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    Empleos
+                   EMPLEOS
                     <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu text-center" aria-labelledby="mnuRendicion">

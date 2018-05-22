@@ -36,7 +36,7 @@
 
       <div class="seccion-lista text-justified">
         <ul class="text-justified">
-          <li>Ministerio de Obras Públicas, Transporte y de Vivienda y Desarrollo Urbano, <a href="http://www.mop.gob.sv/" class="no-text-transform">MOPTVDU </a> </li>
+          <li>Ministerio de Obras Públicas, Transporte, Vivienda y Desarrollo Urbano, <a href="http://www.mop.gob.sv/" class="no-text-transform">MOPTVDU </a> </li>
           <li>Fondo de Conservación Vial, <a href="http://fovial.com/" class="no-text-transform">FOVIAL</a></li>
         </ul>
       </div>
@@ -102,7 +102,7 @@
 
   <br />
 
-  <p class="container"><b>E</b>l consejo Directivo de CoST El Salvador, es electo entre los miembros del Grupo Multisectorial de CoST en pleno por mayoría calificada; CoST El Salvador eligió su Consejo Directivo el día <b>jueves 11 de enero de 2018</b>, el cual está conformado de la siguiente manera:</p>
+  <p class="container"><b>E</b>l consejo Directivo de CoST El Salvador, es electo entre los miembros del Grupo Multisectorial de CoST en pleno por mayoría calificada; CoST El Salvador eligió su Consejo Directivo el día <b>jueves 11 de enero de 2018.</b></p>
 </section>
 
 

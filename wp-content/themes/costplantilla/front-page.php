@@ -38,8 +38,8 @@
     <small class="text-dark">SELECCIONA UNO DE LOS MENÚS.</small>
   </div>
 
-  <div class="menu-menu-bullet-container"><ul id="menu-menu-bullet" class="bullets-row"><li id="menu-item-66" class="bullet bullet-a text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="/cost_wp/index.php/buenas-practicas/" class="no-text-transform">BUENAS PRACTICAS CoST</a></li>
-  <li id="menu-item-65" class="bullet bullet-b text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="/cost_wp/index.php/dashboard-aseguramiento/" class="no-text-transform">MONITOREO DE PROYECTOS</a></li>
+  <div class="menu-menu-bullet-container"><ul id="menu-menu-bullet" class="bullets-row"><li id="menu-item-66" class="bullet bullet-a text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="<?php echo get_home_url().'/index.php/buenas-practicas' ?>" class="no-text-transform button-text">BUENAS<br>PRACTICAS CoST</a></li>
+  <li id="menu-item-65" class="bullet bullet-b text-center menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="<?php echo get_home_url().'/index.php/dashboard-aseguramiento' ?>" class="no-text-transform button-text">MONITOREO DE PROYECTOS</a></li>
   </ul></div>
 </section>
 
@@ -52,7 +52,7 @@
 
   <br /><br />
 
-  <div class="events-list">
+  <div class="events-list container-fluid">
     <?php $i = 1; ?>
     <?php
      $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
@@ -153,7 +153,7 @@
   <div class="mivi-item col-xs-1 col-sm-1 col-md-6">
       <h2>Visión</h2>
 
-      <p>"Promover una cultura de transparencia y ética en los procesos de construcción de la obra pública divulgando información sistematizada que morive la auditoría social y la rendicion de cuentas."</p>
+      <p>"Promover una cultura de transparencia y ética en los procesos de construcción de la obra pública divulgando información sistematizada que motive la auditoría social y la rendicion de cuentas."</p>
   </div>
 </section>
 

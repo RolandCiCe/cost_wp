@@ -2,7 +2,7 @@
 // Filtrando por slug
 if (in_category('Investigaciones')) {
     include(TEMPLATEPATH. '/single-investigaciones.php');
-} elseif (in_category('eventos')) {
+} elseif (in_category('Eventos-Inicio')) {
     include(TEMPLATEPATH . '/single-eventos.php');
 } elseif (in_category('Informes')) {
     include(TEMPLATEPATH . '/single-informes.php');
@@ -21,10 +21,18 @@ if (in_category('Investigaciones')) {
 } elseif (in_category('Hidraulica')) {
       include(TEMPLATEPATH . '/single-dashboard-aseguramiento-hidraulica.php');
 } elseif (in_category('Telecomunicaciones')) {
-      include(TEMPLATEPATH . '/single-dashboard-aseguramiento-telecomunicaciones.php');                
+      include(TEMPLATEPATH . '/single-dashboard-aseguramiento-telecomunicaciones.php');
 } elseif (in_category('buenaspracticas')) {
     include(TEMPLATEPATH . '/single-buenas-practicas.php');
-}  else { // Sino, cargo otro single por defecto
+} elseif (in_category('Charlas')) {
+    include(TEMPLATEPATH . '/single-eventos-charlas.php');
+} elseif (in_category('Capacitaciones')) {
+    include(TEMPLATEPATH . '/single-eventos-capacitaciones.php');
+} elseif (in_category('Presentaciones')) {
+    include(TEMPLATEPATH . '/single-eventos-presentaciones.php');
+} elseif (in_category('Boletines')) {
+    include(TEMPLATEPATH . '/single-boletines.php');
+} else { // Sino, cargo otro single por defecto
     include(TEMPLATEPATH . '/single-default.php');
 }
 ?>

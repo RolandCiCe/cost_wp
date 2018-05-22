@@ -56,11 +56,11 @@
           <div class="collapse navbar-collapse gotham-bold" id="costNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="<?php echo get_home_url() ?>">inicio</a>
+                <a class="nav-link" href="<?php echo get_home_url() ?>">INICIO</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="<?php echo get_home_url().'/index.php/quienes-somos' ?>">quiénes somos</a>
+                <a class="nav-link" href="<?php echo get_home_url().'/index.php/quienes-somos' ?>">QUIÉNES SOMOS</a>
               </li>
 
               <!--<li class="nav-item">
@@ -70,13 +70,13 @@
               <li class="nav-item">
                 <div class="dropdown">
                   <a class="btn btn-default dropdown-toggle" href="#/" id="mnuPublicaciones" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    grupo multisectorial
+                    GRUPO MULTISECTORIAL
                     <span class="caret"></span>
                   </a>
-                  <ul class="dropdown-menu text-center" aria-labelledby="mnuPublicaciones">
-                    <li><a href="/cost_wp/index.php/grupo-multisectoria/">grupo multisectorial</a></li>
-                    <li><a href="/cost_wp/index.php/grupo-multisectorial-actual/">Consejo directivo 2018 - 2019</a></li>
-                    <li><a href="/cost_wp/index.php/grupo-multisectorial-anterior/">Consejo directivo 2016 - 2018</a></li>
+                  <ul class="dropdown-menu text-center w-100" aria-labelledby="mnuPublicaciones">
+                    <li><a href="<?php echo get_home_url().'/index.php/grupo-multisectoria'?>">Grupo Multisectorial</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/grupo-multisectorial-actual'?>">Consejo directivo 2018 - 2020</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/grupo-multisectorial-anterior'?>">Consejo directivo 2016 - 2018</a></li>
                   </ul>
                 </div>
               </li>
@@ -87,10 +87,11 @@
                     PUBLICACIONES
                     <span class="caret"></span>
                   </a>
-                  <ul class="dropdown-menu text-center" aria-labelledby="mnuPublicaciones">
-                    <li><a href="/cost_wp/index.php/investigaciones/">Investigaciones</a></li>
-                    <li><a href="/cost_wp/index.php/descargas/">Descargas</a></li>
-                    <li><a href="/cost_wp/index.php/informes/">Informes</a></li>
+                  <ul class="dropdown-menu text-center w-100" aria-labelledby="mnuPublicaciones">
+                    <li><a href="<?php echo get_home_url().'/index.php/investigaciones'?>">Investigaciones</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/descargas'?>">Descargas</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/informes'?>">Informes de Aseguramiento</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/boletines'?>">Boletines</a></li>
                   </ul>
                 </div>
               </li>
@@ -102,10 +103,10 @@
                     EVENTOS
                     <span class="caret"></span>
                   </a>
-                  <ul class="dropdown-menu text-center" aria-labelledby="mnuPublicaciones">
-                    <li><a href="/cost_wp/index.php/eventos-presentaciones/">Presentaciones</a></li>
-                    <li><a href="/cost_wp/index.php/eventos-capacitaciones/">Capacitaciones</a></li>
-                    <li><a href="/cost_wp/index.php/eventos-charlas/">Charlas</a></li>
+                  <ul class="dropdown-menu text-center w-100" aria-labelledby="mnuPublicaciones">
+                    <li><a href="<?php echo get_home_url().'/index.php/eventos-presentaciones'?>">Presentaciones</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/eventos-capacitaciones'?>">Capacitaciones</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/eventos-charlas'?>">Charlas</a></li>
                   </ul>
                 </div>
               </li>
@@ -116,21 +117,21 @@
                     RENDICIÓN DE CUENTAS
                     <span class="caret"></span>
                   </a>
-                  <ul class="dropdown-menu text-center" aria-labelledby="mnuRendicion">
-                    <li><a href="/cost_wp/index.php/planes-trabajo/">Planes de Trabajo</a></li>
-                    <li><a href="/cost_wp/index.php/proyectos-aprobados/">Proyectos Aprobados</a></li>
+                  <ul class="dropdown-menu text-center w-100" aria-labelledby="mnuRendicion">
+                    <li><a href="<?php echo get_home_url().'/index.php/planes-trabajo'?>">Planes de Trabajo</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/proyectos-aprobados'?>">Proyectos Aprobados</a></li>
                   </ul>
                 </div>
               </li>
               <li class="nav-item">
                 <div class="dropdown">
                   <a class="btn btn-default dropdown-toggle" href="#/" id="mnuRendicion" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    Empleos
+                   EMPLEOS
                     <span class="caret"></span>
                   </a>
-                  <ul class="dropdown-menu text-center" aria-labelledby="mnuRendicion">
-                    <li><a href="/cost_wp/index.php/empleos/">Listado de empleos</a></li>
-                    <li><a href="/cost_wp/index.php/contacto-cv/">Enviar Curriculum</a></li>
+                  <ul class="dropdown-menu text-center w-100" aria-labelledby="mnuRendicion">
+                    <li><a href="<?php echo get_home_url().'/index.php/empleos'?>">Listado de empleos</a></li>
+                    <li><a href="<?php echo get_home_url().'/index.php/contacto-cv'?>">Enviar Curriculum</a></li>
                   </ul>
                 </div>
               </li>

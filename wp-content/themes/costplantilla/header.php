@@ -73,8 +73,8 @@
                     GRUPO MULTISECTORIAL
                     <span class="caret"></span>
                   </a>
-                  <ul class="dropdown-menu text-center w-100" aria-labelledby="mnuPublicaciones">
-                    <li><a href="<?php echo get_home_url().'/index.php/grupo-multisectoria'?>">Grupo Multisectorial</a></li>
+                  <ul class="dropdown-menu text-center" aria-labelledby="mnuPublicaciones">
+                    <li><a href="<?php echo get_home_url().'/index.php/grupo-multisectoria'?>">Grupo multisectorial</a></li>
                     <li><a href="<?php echo get_home_url().'/index.php/grupo-multisectorial-actual'?>">Consejo directivo 2018 - 2020</a></li>
                     <li><a href="<?php echo get_home_url().'/index.php/grupo-multisectorial-anterior'?>">Consejo directivo 2016 - 2018</a></li>
                   </ul>
@@ -87,7 +87,7 @@
                     PUBLICACIONES
                     <span class="caret"></span>
                   </a>
-                  <ul class="dropdown-menu text-center w-100" aria-labelledby="mnuPublicaciones">
+                  <ul class="dropdown-menu text-center" aria-labelledby="mnuPublicaciones">
                     <li><a href="<?php echo get_home_url().'/index.php/investigaciones'?>">Investigaciones</a></li>
                     <li><a href="<?php echo get_home_url().'/index.php/descargas'?>">Descargas</a></li>
                     <li><a href="<?php echo get_home_url().'/index.php/informes'?>">Informes de Aseguramiento</a></li>
@@ -103,7 +103,7 @@
                     EVENTOS
                     <span class="caret"></span>
                   </a>
-                  <ul class="dropdown-menu text-center w-100" aria-labelledby="mnuPublicaciones">
+                  <ul class="dropdown-menu text-center" aria-labelledby="mnuPublicaciones">
                     <li><a href="<?php echo get_home_url().'/index.php/eventos-presentaciones'?>">Presentaciones</a></li>
                     <li><a href="<?php echo get_home_url().'/index.php/eventos-capacitaciones'?>">Capacitaciones</a></li>
                     <li><a href="<?php echo get_home_url().'/index.php/eventos-charlas'?>">Charlas</a></li>
@@ -117,7 +117,7 @@
                     RENDICIÓN DE CUENTAS
                     <span class="caret"></span>
                   </a>
-                  <ul class="dropdown-menu text-center w-100" aria-labelledby="mnuRendicion">
+                  <ul class="dropdown-menu text-center" aria-labelledby="mnuRendicion">
                     <li><a href="<?php echo get_home_url().'/index.php/planes-trabajo'?>">Planes de Trabajo</a></li>
                     <li><a href="<?php echo get_home_url().'/index.php/proyectos-aprobados'?>">Proyectos Aprobados</a></li>
                   </ul>
@@ -129,7 +129,7 @@
                    EMPLEOS
                     <span class="caret"></span>
                   </a>
-                  <ul class="dropdown-menu text-center w-100" aria-labelledby="mnuRendicion">
+                  <ul class="dropdown-menu text-center" aria-labelledby="mnuRendicion">
                     <li><a href="<?php echo get_home_url().'/index.php/empleos'?>">Listado de empleos</a></li>
                     <li><a href="<?php echo get_home_url().'/index.php/contacto-cv'?>">Enviar Curriculum</a></li>
                   </ul>

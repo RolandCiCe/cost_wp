@@ -16,7 +16,7 @@
     {
       echo '<h3 class="text-center">Por el momento no hay información para mostrar.</h3>';
     }
-    
+
     while( $query->have_posts() ): $query->the_post();
 
      ?>
@@ -51,7 +51,7 @@
 
             <div class="contenido-entrada">
               <!--<?php the_excerpt(); ?>-->
-              <div class="read-more-link"><a class="text-primary event-permalink" href="<?php the_permalink(); ?>">Leer más...</a></div>
+              <div class="read-more-link"><a class="text-primary event-permalink" href="<?php echo excerpt(400);?>">Descargas</a></div>
             </div>
           </header>
       </article>

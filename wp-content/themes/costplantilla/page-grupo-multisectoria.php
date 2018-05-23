@@ -21,7 +21,7 @@
       <ul class="text-justified">
         <li>La apropiación y Liderazgo del país, estableciendo estándares para el Programa Nacional. </li>
         <li>Ofrece un espacio compartido y neutral para el diálogo.</li>
-        <li>Proporciona legitimada, contrayendo confianza y capital social.</li>
+        <li>Proporciona legitimidad, contrayendo confianza y capital social.</li>
       </ul>
     </div>
   </div>

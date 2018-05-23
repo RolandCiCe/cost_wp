@@ -40,7 +40,7 @@
   <div class="hist-text2 text-justified">
     <div class="">
       <div class="">
-        <p class="">La experiencia de CoST en Guatemala motivó al Ex-Ministro de Obras Públicas, Transporte, y de Vivienda y Desarrollo Urbano de El Salvador, Señor Gerson Martínez, a establecer contacto con el Secretariado Internacional de CoST (IS, por sus siglas en inglés, International Secretariat). Iniciando en marzo de 2013 el proceso de adhesión a la iniciativa. En mayo de 2013, se suscribió un Memorando de Entendimiento con el IS de CoST, para formalizar el establecimiento del Programa en el país.</p>
+        <p class="">La experiencia de CoST en Guatemala motivó al Ex-Ministro de Obras Públicas, Transporte, Vivienda y Desarrollo Urbano de El Salvador, Señor Gerson Martínez, a establecer contacto con el Secretariado Internacional de CoST (IS, por sus siglas en inglés, International Secretariat). Iniciando en marzo de 2013 el proceso de adhesión a la iniciativa. En mayo de 2013, se suscribió un Memorando de Entendimiento con el IS de CoST, para formalizar el establecimiento del Programa en el país.</p>
       </div>
       <div class="">
         <p class="text-justified"></p>
@@ -112,7 +112,7 @@
 
   <br />
 
-  <h2 class="text-center">¿QUÉ GANA NUESTRO PAIS CON EL TRABAJO DE CoST EL SALVADOR?</h2>
+  <h2 class="text-center">¿QUÉ GANA NUESTRO PAÍS CON EL TRABAJO DE CoST EL SALVADOR?</h2>
 
   <p class="rojo text-justified">CoST ha desarrollado procedimientos para recopilar, verificar y divulgar información sobre proyectos de construcción con financiamiento público. La expectativa es que la divulgación incremente la transparencia y la rendición de cuentas, y por lo tanto, a largo plazo, ayude en el mejoramiento del valor del dinero de las inversiones realizadas en infraestructura. Existen evidencias de que este proceso ya ha generado un impacto positivo. Por ejemplo, en algunos países ha ocasionado cambios en los procedimientos gubernamentales, mientras que otros han integrado los procedimientos CoST a sus marcos de trabajo institucionales.</p>
 </section>

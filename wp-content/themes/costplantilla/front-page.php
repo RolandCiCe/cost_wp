@@ -161,7 +161,7 @@
   <h2 style="text-align: center;">GRUPO MULTISECTORIAL</h2>
 
   <!--<div class="small-ruler"><div></div></div>-->
-  <p class="text-center text-dark">Organismo rector de la iniciativa CoST El Salvador, integrado por academia, Sociedad Civil, Empresa privada y Gobierno.</p><br /><br />
+  <p class="text-center text-dark">Organismo rector de la iniciativa CoST El Salvador, integrado por academia, Sociedad Civil, Empresa Privada y Gobierno.</p><br /><br />
 
   <div class="gms-row">
     <a title="" href="http://sacdel.org.sv/"><img class="" src="<?php echo get_template_directory_uri().'/img/front-page/logosgms/sacdel2.png' ;?>" /></a>

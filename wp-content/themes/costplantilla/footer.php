@@ -10,8 +10,8 @@
   <div class="telefono">
     <p><span class="fa fa-phone"></span>&nbsp;+(503) 2275-1020</p>
   </div>
-  <div class="email">
-    <p><span class="fa fa-envelope"></span>&nbsp;administracion@costelsalvador.org.sv</p>
+  <div class="link-email">
+    <a href="mailto:administracion@costelsalvador.org.sv" class="link-email"><p><span class="fa fa-envelope"></span>&nbsp;administracion@costelsalvador.org.sv</p></a>
   </div>
 
   <!-- <div class="">

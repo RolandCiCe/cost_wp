@@ -14,7 +14,19 @@
     <p class="text-justified">Es incrementar el valor de la infraestructura pública en todo el mundo, al aumentar la transparencia con la que se ejecutan los proyectos, además de fomentar la demanda ciudadana de rendición de cuentas. </p>
   </div>-->
   <div class="obj-desc">
+<<<<<<< HEAD
     <?php get_template_part('page','grupo-multisectorial-importancia' );?>
+=======
+    <h1 class=""><b><span class="text-dark">IMPORTANCIA DEL MSG:</span><br /></b><span class="text-primary">EN CoST</span></h1>
+    <br />
+    <div class="importancia text-justified">
+      <ul class="text-justified">
+        <li>La apropiación y Liderazgo del país, estableciendo estándares para el Programa Nacional. </li>
+        <li>Ofrece un espacio compartido y neutral para el diálogo.</li>
+        <li>Proporciona legitimidad, contrayendo confianza y capital social.</li>
+      </ul>
+    </div>
+>>>>>>> 669df89db48143a230aa1d1a8b3024ecb48e6b02
   </div>
 
   <div class="obj-secciones text-justified">

@@ -51,8 +51,13 @@
             </div>
 
             <div class="contenido-entrada">
+<<<<<<< HEAD
               <!--<?php echo excerpt(400); ?>-->
               <div class="read-more-link"><a class="text-primary event-permalink" href="<?php echo excerpt(400); ?>" target="_blank">Descargar</a></div>
+=======
+              <!--<?php the_excerpt(); ?>-->
+              <div class="read-more-link"><a class="text-primary event-permalink" href="<?php echo excerpt(400); ?>">Descargas</a></div>
+>>>>>>> 669df89db48143a230aa1d1a8b3024ecb48e6b02
             </div>
           </header>
       </article>

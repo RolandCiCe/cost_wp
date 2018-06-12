@@ -1,5 +1,6 @@
 <?php get_header(); ?>
-<div class="contenido-hero single-header planes-trabajo">
+<?php while(have_posts()): the_post(); ?>
+<div class="contenido-hero single-header planes-trabajo" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>);">
 </div><br />
 
 <section class="eventos">
@@ -16,7 +17,7 @@
     {
       echo '<h3 class="text-center">Por el momento no hay información para mostrar.</h3>';
     }
-    
+
     while( $query->have_posts() ): $query->the_post();
 
      ?>
@@ -50,9 +51,9 @@
             </div>
 
             <div class="contenido-entrada">
-              <!--<?php the_excerpt(); ?>-->
-              <div class="read-more-link"><a class="text-primary event-permalink" href="<?php the_permalink(); ?>">Leer más...</a></div>
-            </div>
+              <!--<?php echo excerpt(400); ?>-->
+              <div class="read-more-link"><a class="text-primary event-permalink" href="<?php echo excerpt(400); ?>" target="_blank">Descargar</a></div>
+              </div>
           </header>
       </article>
       <?php $i++; ?>
@@ -81,4 +82,5 @@
     ?>
   </div>
 </section>
+<?php endwhile; ?>
 <?php get_footer(); ?>

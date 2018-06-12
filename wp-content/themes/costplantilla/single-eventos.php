@@ -8,7 +8,7 @@
     <div class="container-fluid">
       <span class="date"><span class="im im-calendar text-primary"></span> <?php echo the_time('d M.y'); ?></span> <br /><br />
 
-      <?php the_title('<h3 style="text-transform: uppercase; font-weight: 600;">','</h3>'); ?>
+      <?php the_title('<h3 style="font-weight: 600;">','</h3>'); ?>
 
       <div class="principal contenedor text-justified">
         <?php the_content(); ?>

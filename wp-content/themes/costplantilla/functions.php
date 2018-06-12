@@ -41,14 +41,56 @@ register_nav_menus( array(
 ));
 //widget
 
-function cost_widgets (){
-  register_sidebar(array(
+// Register Custom Navigation Walker
+require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 
-  ) );
+function costplantilla_widgets_init() {
+
+	// Nueva Zona Agregada
+	register_sidebar( array(
+		'name'          => __( 'Header', 'costplantilla' ),
+		'id'            => 'sidebar-4',
+		'description'   => __( 'Add widgets here to appear in your header.', 'costplantilla' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Sidebar', 'costplantilla' ),
+		'id'            => 'sidebar-1',
+		'description'   => __( 'Add widgets here to appear in your sidebar.', 'costplantilla' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Footer 1', 'costplantilla' ),
+		'id'            => 'sidebar-2',
+		'description'   => __( 'Add widgets here to appear in your footer.', 'costplantilla' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Footer 2', 'costplantilla' ),
+		'id'            => 'sidebar-3',
+		'description'   => __( 'Add widgets here to appear in your footer.', 'costplantilla' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
 }
+add_action( 'widgets_init', 'costplantilla_widgets_init' );
 
 add_theme_support( 'post-thumbnails' );
-
+add_theme_support( 'html5',array('search-form'));
 // Create the Custom Excerpts callback
 function html5wp_excerpt($length_callback = '', $more_callback = '')
 {

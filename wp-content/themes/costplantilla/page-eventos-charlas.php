@@ -1,5 +1,6 @@
 <?php get_header(); ?>
-<div class="contenido-hero single-header eventos-charlas">
+<?php while(have_posts()): the_post(); ?>
+<div class="contenido-hero single-header eventos-charlas" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>);">
 </div><br />
 
 <section class="eventos">
@@ -44,9 +45,9 @@
             <div class="titulo-entrada">
               <?php the_title( '<p class="post-title"><b>', '</b></p>' ) ;?>
 
-              <p class="autor text-muted">
-                <span class="fa fa-user" aria-hidden="true"></span>&nbsp;<span><?php the_author(); ?></span>
-              </p>
+              <!--<p class="autor text-muted">
+                <span class="fa fa-user" aria-hidden="true"></span>&nbsp;<span><!--<?php the_author(); ?></span>
+              </p>-->
             </div>
 
             <div class="contenido-entrada text-justified">
@@ -81,4 +82,5 @@
     ?>
   </div>
 </section><br />
+<?php endwhile; ?>
 <?php get_footer(); ?>

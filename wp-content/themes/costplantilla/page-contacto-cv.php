@@ -1,5 +1,6 @@
 <?php get_header(); ?>
-<div class="contenido-hero single-header empleos-cv">
+<?php while(have_posts()): the_post(); ?>
+<div class="contenido-hero single-header empleos-cv" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>);">
   </div>
   <section class="contacto bg-light">
     <div class="row row-centered">
@@ -29,5 +30,5 @@
       </div>
     </div>
   </section>
-
+<?php endwhile; ?>
 <?php get_footer();?>

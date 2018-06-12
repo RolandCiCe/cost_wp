@@ -1,19 +1,19 @@
 <?php get_header(); ?>
 
-  <?php while(have_posts()): the_post(); ?>
-      <div class="contenido-hero single-header buenas-practicas">
-        <div class="texto-hero">
-          <?php //the_title('<h1>','</h1>'); ?>
-        </div>
-      </div>
-      <div class="">
-        <img src="<?php echo get_template_directory_uri().'/img/buenas_practicas/buenas_practicas.jpg' ;?>">
-        <img src="<?php echo get_template_directory_uri().'/img/buenas_practicas/iconos_buenas_practicas.png' ;?>">
-        <p>BUENAS PRACTICAS <b>CoST</b></p>
-      </div>
-    <div class="principal contenedor-pdf">
+<?php while(have_posts()): the_post(); ?>
+  <div class="evento-img">
+    <?php the_post_thumbnail('full'); ?>
+  </div> <br />
+<a href="#/" class="no-text-transform" onclick="window.history.back();"><span class="fa fa-arrow-left"></span> Volver a página anterior</a>
+  <div class="container-fluid">
+    <span class="date"><span class="im im-calendar text-primary"></span> <?php echo the_time('d M.y'); ?></span> <br /><br />
+
+    <?php the_title('<h3 style="text-transform: uppercase; font-weight: 600;">','</h3>'); ?>
+
+    <div class="principal contenedor text-justified">
       <?php the_content(); ?>
     </div>
-  <?php endwhile; ?>
+  </div>
+<?php endwhile; ?>
 
 <?php get_footer();?>

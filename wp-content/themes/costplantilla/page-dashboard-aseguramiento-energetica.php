@@ -1,6 +1,7 @@
 <?php get_header(); ?>
-<div class="contenido-hero single-header aseg aseg-energ">
-  <h1>INFRAESTRUCTURA energética</h1>
+<?php while(have_posts()): the_post(); ?>
+<div class="contenido-hero single-header aseg aseg-energ" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>);">
+  <h1><?php echo the_field('titulo_energetica'); ?></h1>
 </div><br />
 <a href="#/" class="no-text-transform" onclick="window.history.back();"><span class="fa fa-arrow-left"></span> Volver a página anterior</a>
 <section class="eventos">
@@ -88,4 +89,5 @@
     ?>
   </div>
 </section><br />
+<?php endwhile; ?>
 <?php get_footer(); ?>

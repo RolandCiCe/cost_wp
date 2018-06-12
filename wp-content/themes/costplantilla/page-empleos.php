@@ -1,5 +1,6 @@
 <?php get_header(); ?>
-<div class="contenido-hero single-header empleos">
+<?php while(have_posts()): the_post(); ?>
+<div class="contenido-hero single-header empleos" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>);">
 <?php
 $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 $query = new WP_Query( array(
@@ -57,8 +58,8 @@ $query = new WP_Query( array(
                 </div>
 
                 <div class="contenido-entrada">
-                  <?php echo excerpt(25); ?>
-                  <div class="read-more-link"><a class="text-primary event-permalink" href="<?php the_permalink(); ?>">Leer más...</a></div>
+                  <!--<?php echo excerpt(400); ?>-->
+                  <div class="read-more-link"><a class="text-primary event-permalink" href="<?php echo excerpt(400); ?>" target="_blank">Descargar</a></div>
                 </div>
               </header>
           </article>
@@ -88,4 +89,5 @@ $query = new WP_Query( array(
         ?>
       </div>
 </section>
+<?php endwhile; ?>
 <?php get_footer(); ?>

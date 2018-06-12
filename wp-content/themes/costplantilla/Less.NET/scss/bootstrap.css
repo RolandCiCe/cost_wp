@@ -6081,7 +6081,7 @@ a {
   transition: 0.35s !important;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 100%; }
+  font-size: 93%; }
 
 .nav-item ul.dropdown-menu li a {
   text-transform: none !important; }
@@ -6334,7 +6334,8 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-start; }
+  align-items: flex-start;
+  padding-left: 1%; }
 
 .events-list article {
   max-width: 40%;
@@ -6621,7 +6622,6 @@ article:hover {
   color: white !important;
   padding: 0px;
   padding-top: 100px;
-  background: url("../img/GMS/gms.jpg");
   background-size: 100% 100%;
   background-position: top left;
   height: 550px;
@@ -6775,47 +6775,8 @@ article:hover {
   background-position: top left !important;
   background-size: 100% 100% !important; }
 
-.single-header.informes {
-  background: url("../img/informes/informes.jpg"); }
-
-.single-header.descargas {
-  background: url("../img/descargas/descargas.jpg"); }
-
-.single-header.boletines {
-  background: url("../img/boletines/boletines.jpg"); }
-
-.single-header.investigaciones {
-  background: url("../img/investigaciones/investigaciones_cost.jpg"); }
-
 .single-header.eventos {
   background: url("../img/eventos/eventos.jpg"); }
-
-.single-header.empleos {
-  background: url("../img/empleos/empleos.jpg"); }
-
-.single-header.proyectos-aprobados {
-  background: url("../img/proyectos_aprobados/proyectos_aprobados.jpg"); }
-
-.single-header.planes-trabajo {
-  background: url("../img/planes_trabajo/planes_trabajos.jpg"); }
-
-.single-header.gsm-actual {
-  background: url("../img/GMS/consejo_2018_2019.jpg"); }
-
-.single-header.gsm-anterior {
-  background: url("../img/GMS/consejo_2016_2018.jpg"); }
-
-.single-header.eventos-charlas {
-  background: url("../img/eventos/charlas.jpg"); }
-
-.single-header.eventos-capacitaciones {
-  background: url("../img/eventos/capacitaciones.jpg"); }
-
-.single-header.eventos-presentaciones {
-  background: url("../img/eventos/presentaciones.jpg"); }
-
-.single-header.empleos-cv {
-  background: url("../img/empleos/trabaja_con_nosotros.jpg"); }
 
 .single-name {
   width: 100%;
@@ -6858,29 +6819,16 @@ article:hover {
 .aseguramiento-links * {
   color: white !important; }
 
-.qs-titulo.aseguramiento {
-  background: url("../img/quienes_somos/aseguramiento/imag_aseguramiento.jpg"); }
-
 .qs-titulo.aseguramiento .qs-div {
   background: rgba(232, 170, 68, 0.8); }
 
-.qs-titulo.divulgacion {
-  background: url("../img/quienes_somos/divulgacion/imag_divulgacion.jpg"); }
-
-.qs-titulo.buenas-practicas {
-  background: url("../img/buenas_practicas/imag_buenas_practicas.png"); }
-
 .qs-titulo.divulgacion .qs-div {
   background: rgba(213, 63, 37, 0.8); }
-
-.qs-titulo.demanda {
-  background: url("../img/quienes_somos/demanda/imag_demanda.jpg"); }
 
 .qs-titulo.demanda .qs-div {
   background: rgba(98, 125, 127, 0.8); }
 
 .single-header.aseg {
-  background: url("../img/aseguramiento/imag_aseguramiento.jpg");
   color: white !important;
   display: flex;
   flex-direction: column;

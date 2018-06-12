@@ -1,8 +1,10 @@
 <?php get_header(); ?>
-<div class="contenido-hero single-header aseg buenas_practicas">
-  <img src="<?php echo get_template_directory_uri().'/img/buenas_practicas/iconos_buenas_practicas.png' ;?>">
-  <br /><span>BUENAS PRÁCTICAS</span>
-  <span class="gotham-bold">CoST</span>
+<?php while(have_posts()): the_post(); ?>
+<div class="contenido-hero single-header aseg buenas_practicas" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>);">
+<img src="<?php echo the_field('imagen_1'); ?>">
+<span><?php echo the_field('titulo_parte_1'); ?></span>
+ <span class="gotham-bold"><?php echo the_field('titulo_parte_2'); ?></span>
+
 </div><br />
 
 <section class="eventos">
@@ -84,4 +86,5 @@
     ?>
   </div>
 </section><br />
+<?php endwhile; ?>
 <?php get_footer(); ?>

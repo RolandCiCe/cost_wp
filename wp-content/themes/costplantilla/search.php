@@ -1,7 +1,11 @@
 <?php get_header(); ?>
-<div class="row">
-  <div class="col-xs-12 col-sm-8">
-    <div class="row">
+
+<br />
+
+<h1 class="text-primary">Resultados de la búsqueda:</h1><br />
+
+
+<div class="container-fluid"><div class="row">
       <?php
         if( have_posts()) :
           while (have_posts()) : the_post(); ?>
@@ -10,12 +14,8 @@
     endif;
 
        ?>
+</div></div>
 
-    </div>
-
-  </div>
-
-</div>
 
 
 <?php get_footer(); ?>

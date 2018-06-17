@@ -1,6 +1,0 @@
-<div class="">
-        <a href="/cost_wp/index.php/investigaciones/">Investigaciones </a>
-        <a href="/cost_wp/index.php/descargas/">Descargas </a>
-        <a href="/cost_wp/index.php/informes/">Informes </a>
-
-      </div>
